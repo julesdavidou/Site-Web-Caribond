@@ -5,33 +5,25 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    overflow-x: hidden; /* Cache tout débordement horizontal */
 }
 
-main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-main img.styled-image {
-    display: block; /* Enlève les espaces vides en ligne autour de l'image */
-    margin: 0 auto; /* Centre l'image si elle a des marges */
-}
-
-.styled-image {
-    width: 100%;
-    height: auto;
-    border: 3px solid gray;
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
-}
-
-/* Header */
+/* Header fixe */
 header {
-    background-color: white;
-    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--encadrer, white);
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Menu navigation */
 header nav ul {
     list-style: none;
     display: flex;
@@ -44,7 +36,6 @@ header nav ul li {
     margin: 0 1rem;
 }
 
-/* Menu liste */
 header nav ul li a {
     color: #5760e5;
     text-decoration: none;
@@ -56,13 +47,91 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
+/* Espace pour éviter que le header ne cache le contenu */
+main {
+    width: 100%;
+    margin: 0;
+    padding: 40px 20px 20px; /* Ajustement pour le header */
+}
+
+/* Images stylées */
+.styled-image {
+    width: 90vw;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section partenaires */
+#partenaires {
+    text-align: center;
+    padding: 0px 20px;
+    background-color: var(--fond-clair, #f9f9f9);
+    margin-bottom: 0px;
+}
+
+.partenaires-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partenaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.partenaire img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.partenaire p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer ajusté */
 footer {
     background-color: #f1f1f1;
     color: #333;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
+    position: relative; /* Fixe en bas sans cacher le contenu */
+    margin-top: 0px; /* Espace en bas */
     width: 100%;
+}
+
+/* Styles spécifiques par page */
+.page-accueil main h1 {
+    color: blue;
+}
+
+.page-programme main h1 {
+    color: red;
+}
+
+.page-defis main h1 {
+    color: green;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 65%;
 }
