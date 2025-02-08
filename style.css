@@ -114,7 +114,42 @@ header nav ul li a:hover {
     font-style: italic;
     color: #666;
 }
+/*Shotguns */
+.category {
+    margin: 20px 0;
+}
 
+.category h2 {
+    color: #5760e5;
+}
+
+.activity {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Avant ouverture */
+.inactive a {
+    color: gray;
+    pointer-events: none; /* Désactive le lien */
+}
+
+/* Période active */
+.active a {
+    color: green;
+}
+
+/* Après fermeture */
+.closed a {
+    color: red;
+    pointer-events: none; /* Désactive le lien */
+}
+
+.activity a {
+    text-decoration: none;
+}
 /* Footer */
 footer {
     background-color: #f1f1f1;
