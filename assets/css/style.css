@@ -1,4 +1,153 @@
+/* Importation des polices */
+@font-face {
+    font-family: 'Futura Black';
+    src: url('../fonts/Futura_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Neutraface Text Bold';
+    src: url('../fonts/Neutraface_Text_Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'True Typwriter';
+    src: url('../fonts/True_Typwriter.ttf') format('truetype');
+}
+
+/* Fond général avec un bleu royal équilibré */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Neutraface Text Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #d6defc, #c1d1ff); /* Bleu royal adouci */
+    color: #1e2a50; /* Bleu profond pour le texte */
+}
+
+/* Menu horizontal */
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #1e2a50; /* Bleu profond */
+    margin: 0;
+    padding: 15px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+/* Animation de surlignage progressif vers le haut */
+header nav ul li a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    font-family: 'Futura Black', sans-serif;
+    transition: color 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+header nav ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 25%; /* Commence plus haut */
+    width: 100%;
+    height: 12px; /* Ajusté pour être plus visible */
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scaleY(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom;
+}
+
+header nav ul li a:hover::before {
+    transform: scaleY(1);
+}
+
+/* Image intégrée et centrée */
+.centered-image {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    border: 3px solid #1e2a50;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(30, 42, 80, 0.3);
+}
+
+/* Slider partenaires */
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Fix hauteur des images partenaires */
+.partenaire {
+    min-width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.partenaire img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.partenaire p {
+    font-size: 14px;
+    color: #1e2a50;
+    font-family: 'True Typwriter', sans-serif;
+}
+
+/* Boutons navigation */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(30, 42, 80, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.slider-btn.left {
+    left: 10px;
+}
+
+.slider-btn.right {
+    right: 10px;
+}
+
+/* Conteneur de l'effet de maillage */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, #e3e9ff, #cad7ff);
 }
