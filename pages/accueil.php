@@ -35,31 +35,40 @@
         <p>Ceci est le début de votre mission. Explorez nos différentes pages et découvrez les secrets des agents Cari’Bond !</p>
 
         <!-- Image intégrée avec style -->
-        <img src="assets/images/totally_spies.webp" alt="Totally Spies" class="styled-image centered-image">
+        <img src="assets/images/Banniere.png" alt="Bannière Cari'Bond" class="styled-image centered-image">
 
         <!-- Slider partenaires -->
-        <section id="partenaires" class="mt-5">
-            <h2>Nos Partenaires</h2>
-            <p>Nous remercions chaleureusement nos partenaires pour leur soutien.</p>
-            <div class="slider-container">
-                <button class="slider-btn left" onclick="prevSlide()">❮</button>
-                <div class="slider">
-                    <div class="partenaire">
-                        <img src="assets/images/LyfPay.png" alt="Logo LyfPay">
-                        <p>LyfPay - Les rois 👑</p>
-                    </div>
-                    <div class="partenaire">
-                        <img src="assets/images/V&B.png" alt="Logo V&B">
-                        <p>V&B - Toujours là 🍺</p>
-                    </div>
-                    <div class="partenaire">
-                        <img src="assets/images/VUC.webp" alt="Logo VUC">
-                        <p>VUC - Innovateurs 🏀</p>
-                    </div>
+        <section id="partenaires">
+    <h2>Nos Partenaires</h2>
+    <p>Nous remercions chaleureusement nos partenaires pour leur soutien.</p>
+
+    <div class="slider-container">
+            <button class="slider-btn left" onclick="prevSlide()">❮</button>
+            <div class="slider">
+                <div class="partenaire">
+                    <img src="assets/images/LyfPay.png" alt="Logo LyfPay">
+                    <p>LyfPay - Les rois 👑</p>
                 </div>
-                <button class="slider-btn right" onclick="nextSlide()">❯</button>
+                <div class="partenaire">
+                    <img src="assets/images/V&B.png" alt="Logo V&B">
+                    <p>V&B - Toujours là 🍺</p>
+                </div>
+                <div class="partenaire">
+                    <img src="assets/images/VUC.webp" alt="Logo VUC">
+                    <p>VUC - Innovateurs 🏀</p>
+                </div>
+                <div class="partenaire">
+                    <img src="assets/images/partenaire.jpg" alt="Partenaire 4">
+                    <p>Partenaire 4</p>
+                </div>
+                <div class="partenaire">
+                    <img src="assets/images/partenaire.jpg" alt="Partenaire 5">
+                    <p>Partenaire 5</p>
+                </div>
             </div>
-        </section>
+            <button class="slider-btn right" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
     </main>
 </div>
 
@@ -118,6 +127,33 @@ document.addEventListener("DOMContentLoaded", function () {
         retina_detect: true
     });
 });
+</script>
+<script>
+let slideIndex = 0;
+
+function updateSlider() {
+    const slider = document.querySelector('.slider');
+    const totalSlides = document.querySelectorAll('.partenaire').length;
+    const visibleSlides = 3; // Nombre d'éléments visibles à la fois
+
+    if (slideIndex > totalSlides - visibleSlides) {
+        slideIndex = 0; // Retour au début
+    } else if (slideIndex < 0) {
+        slideIndex = totalSlides - visibleSlides; // Aller à la fin
+    }
+
+    slider.style.transform = `translateX(-${slideIndex * (100 / visibleSlides)}%)`;
+}
+
+function prevSlide() {
+    slideIndex--;
+    updateSlider();
+}
+
+function nextSlide() {
+    slideIndex++;
+    updateSlider();
+}
 </script>
 
 

@@ -92,16 +92,19 @@ header nav ul li a:hover::before {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    width: calc(100% * 5); /* Ajuster selon le nombre de partenaires */
 }
 
-/* Fix hauteur des images partenaires */
 .partenaire {
     min-width: 33.33%;
+    flex: 0 0 33.33%; /* Permet d'afficher 3 partenaires à la fois */
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
@@ -120,7 +123,7 @@ header nav ul li a:hover::before {
     font-family: 'True Typwriter', sans-serif;
 }
 
-/* Boutons navigation */
+/* Boutons de navigation du slider */
 .slider-btn {
     position: absolute;
     top: 50%;
@@ -131,6 +134,7 @@ header nav ul li a:hover::before {
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    z-index: 2;
 }
 
 .slider-btn.left {
@@ -140,6 +144,7 @@ header nav ul li a:hover::before {
 .slider-btn.right {
     right: 10px;
 }
+
 
 /* Conteneur de l'effet de maillage */
 #particles-js {
