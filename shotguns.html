@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shotguns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="divisions.html">Divisions</a></li>
+            <li><a href="shotguns.html">Shotguns</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<h1>Shotguns</h1>
+
+<div class="category">
+    <h2>Activités du Midi</h2>
+    <div class="activity" data-start="2025-02-07T12:00:00" data-end="2025-02-08T14:00:00" data-link="https://forms.gle/formulaire1">
+        <a href="#">Yoga en plein air</a>
+    </div>
+</div>
+
+<div class="category">
+    <h2>Activités de l'Après-midi</h2>
+    <div class="activity" data-start="2025-02-10T15:00:00" data-end="2025-02-10T17:00:00" data-link="https://forms.gle/formulaire2">
+        <a href="#">Atelier peinture</a>
+    </div>
+</div>
+
+<div class="category">
+    <h2>Activités du Soir</h2>
+    <div class="activity" data-start="2025-02-07T20:00:00" data-end="2025-02-10T22:00:00" data-link="https://forms.gle/formulaire3" data-closed="true">
+        <a href="#">Soirée jeux de société</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const activities = document.querySelectorAll(".activity");
+
+        activities.forEach(activity => {
+            const startTime = new Date(activity.getAttribute("data-start"));
+            const endTime = new Date(activity.getAttribute("data-end"));
+            const now = new Date();
+            const link = activity.querySelector("a");
+            const url = activity.getAttribute("data-link");
+            const isManuallyClosed = activity.getAttribute("data-closed") === "true";
+
+            if (isManuallyClosed || now >= endTime) {
+                activity.classList.add("closed");
+                link.textContent += " (fermé)";
+            } else if (now >= startTime) {
+                link.href = url; // Active le lien
+                activity.classList.add("active");
+                link.textContent += " (fermeture à " + endTime.toLocaleString("fr-FR") + ")";
+            } else {
+                activity.classList.add("inactive");
+                link.textContent += " (ouverture à " + startTime.toLocaleString("fr-FR") + ")";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
