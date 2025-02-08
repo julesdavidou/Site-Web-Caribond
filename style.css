@@ -47,6 +47,9 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+.shotguns {
+    padding-top: 40px; /* Ajuster selon la hauteur du header */
+}
 
 /*Listes pour la page des teams/divisions */
 .teams-container {
@@ -225,7 +228,8 @@ footer {
 .video-container iframe {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 65%;
     height: 65%;
 }
