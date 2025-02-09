@@ -31,4 +31,9 @@
         <h1>Programme</h1>
         <img src="assets/images/Programme.png" alt="Programme" class="styled-image">
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cari’Bond - Tous droits réservés</p>
+    </footer>
 </body>

@@ -75,5 +75,9 @@
             });
         </script> 
     </main> 
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cari’Bond - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
