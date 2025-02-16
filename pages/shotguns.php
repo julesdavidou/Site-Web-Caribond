@@ -1,32 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Cari’Bond</title>
+<?php
+$page_title = "Shotguns - Cari’Bond";
+$body_class = "page-shotguns";
+?>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<div id="particles-js"></div>
 
-    <!-- Styles personnalisés -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body class="shotguns">
-    <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-            <li><a href="index.php?page=accueil">Accueil</a></li>
-            <li><a href="index.php?page=programme">Programme</a></li>
-            <li><a href="index.php?page=divisions">Divisions</a></li>
-            <li><a href="index.php?page=shotguns">Shotguns</a></li>
-            <li><a href="index.php?page=productions">Productions</a></li>
-            <li><a href="index.php?page=taxis">Taxis</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<div class="container my-5">
     <main>
         <h1>🔫Shotguns</h1>
 
@@ -51,33 +30,7 @@
             </div>
         </div>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const activities = document.querySelectorAll(".activity");
-
-                activities.forEach(activity => {
-                    const startTime = new Date(activity.getAttribute("data-start"));
-                    const endTime = new Date(activity.getAttribute("data-end"));
-                    const now = new Date();
-                    const iframe = activity.querySelector("iframe");
-                    const url = activity.getAttribute("data-link");
-                    const isManuallyClosed = activity.getAttribute("data-closed") === "true";
-
-                    if (iframe) {
-                        if (isManuallyClosed || now >= endTime) {
-                            activity.classList.add("closed");
-                        } else if (now >= startTime) {
-                            iframe.src = url; // Charge le formulaire seulement quand l'heure est atteinte
-                            iframe.classList.remove("hidden"); // Affiche l'iframe
-                        }
-                    }
-                });
-            });
-        </script> 
+        <script src="assets/js/shotguns.js"></script>
+        
     </main> 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Cari’Bond - Tous droits réservés</p>
-    </footer>
-</body>
-</html>
+</div>
