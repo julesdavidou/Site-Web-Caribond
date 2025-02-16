@@ -1,10 +1,165 @@
-<?php
-$page_title = "Divisions - Cari’Bond";
-$body_class = "divisions";
-?>
-<div class="container my-5">
-    <main>
-        <h1>Nos Divisions</h1>
-        <p>Découvrez les équipes qui rendent tout cela possible !</p>
-    </main>
-</div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Cari’Bond</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="divisions">
+
+<!-- Header -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.php?page=accueil">Accueil</a></li>
+            <li><a href="index.php?page=programme">Programme</a></li>
+            <li><a href="index.php?page=divisions">Divisions</a></li>
+            <li><a href="index.php?page=shotguns">Shotguns</a></li>
+            <li><a href="index.php?page=productions">Productions</a></li>
+            <li><a href="index.php?page=taxis">Taxis</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <h1>Divisions</h1>
+    <div class="teams-container">
+        <div class="team">
+            <h2>Bureau</h2>
+            <img src="assets/images/team-alpha.jpg" alt="Photo de l'équipe Alpha">
+            <p class="description">L'équipe Alpha se charge de l'architecture technique du projet et assure sa stabilité.</p>
+            <ul class="members-list">
+                <li>Lia - <span class="role">Manager</span></li>
+                <li>Jean - <span class="role">Spécialiste UX/UI</span></li>
+                <li>Carl - <span class="role">Ingénieur DevOps</span></li>
+                <li>Rayan - <span class="role">Ingénieur DevOps</span></li>
+                <li>Agathe - <span class="role">Ingénieur DevOps</span></li>
+                <li>Laia - <span class="role">Ingénieur DevOps</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>BDS</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Blandine - <span class="role">Chef de projet</span></li>
+                <li>Robin - <span class="role">Développeuse Front-end</span></li>
+                <li>Quentin - <span class="role">Graphiste</span></li>
+                <li>Paula - <span class="role">Graphiste</span></li>
+                <li>Benjamin - <span class="role">Graphiste</span></li>
+                <li>Nicolas - <span class="role">Graphiste</span></li>
+                <li>Quentin - <span class="role">Graphiste</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>BDA</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Tizio - <span class="role">Chef de projet</span></li>
+                <li>Finnlake - <span class="role">Développeuse Front-end</span></li>
+                <li>Camille - <span class="role">Graphiste</span></li>
+                <li>Sanick - <span class="role">Graphiste</span></li>
+                <li>Carlina - <span class="role">Graphiste</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Comm</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Audrey - <span class="role">Chef de projet</span></li>
+                <li>Keyne - <span class="role">Développeuse Front-end</span></li>
+                <li>Jules - <span class="role">Graphiste</span></li>
+                <li>Justine - <span class="role">Graphiste</span></li>
+                <li>Zoé - <span class="role">Graphiste</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Opé</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Marion - <span class="role">Chef de projet</span></li>
+                <li>Noémie - <span class="role">Développeuse Front-end</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Inclusion</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Klervi - <span class="role">Chef de projet</span></li>
+                <li>? - <span class="role">Développeuse Front-end</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Soirée</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Mathias - <span class="role">Chef de projet</span></li>
+                <li>Jules - <span class="role">Développeuse Front-end</span></li>
+                <li> - <span class="role">Graphiste</span></li>
+                <li> - <span class="role">Graphiste</span></li>
+                <li> - <span class="role">Graphiste</span></li>
+                <li> - <span class="role">Graphiste</span></li>
+                <li> - <span class="role">Graphiste</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>BDI</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Jules - <span class="role">Chef de projet</span></li>
+                <li>Keyne - <span class="role">Développeuse Front-end</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Assos & CLubs</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Etienne - <span class="role">Chef de projet</span></li>
+                <li>? - <span class="role">Développeuse Front-end</span></li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <h2>Partenariats</h2>
+            <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
+            <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
+            <ul class="members-list">
+                <li>Cyril - <span class="role">Chef de projet</span></li>
+                <li>Sam - <span class="role">Développeuse Front-end</span></li>
+                <li>Niels - <span class="role">Graphiste</span></li>
+                <li>Hugo - <span class="role">Graphiste</span></li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 - Votre entreprise</p>
+</footer>
+
+</body>
+</html>
+
