@@ -1,7 +1,6 @@
 <?php
 $page_title = "Divisions - Cari’Bond";
 $body_class = "divisions";
-include 'includes/header.php';
 ?>
 <div class="container my-5">
     <main>
@@ -9,4 +8,3 @@ include 'includes/header.php';
         <p>Découvrez les équipes qui rendent tout cela possible !</p>
     </main>
 </div>
-<?php include 'includes/footer.php'; ?>

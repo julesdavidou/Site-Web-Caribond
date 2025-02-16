@@ -1,4 +1,4 @@
-/* Importation des polices */
+/* Fonts */
 @font-face {
     font-family: 'Futura Black';
     src: url('../fonts/Futura_Black.ttf') format('truetype');
@@ -14,7 +14,7 @@
     src: url('../fonts/True_Typwriter.ttf') format('truetype');
 }
 
-/* Fond général avec un bleu royal équilibré */
+/* Fond */
 body {
     font-family: 'Neutraface Text Bold', sans-serif;
     margin: 0;
@@ -22,17 +22,17 @@ body {
     box-sizing: border-box;
     text-align: center;
     overflow-x: hidden;
-    background: linear-gradient(to bottom, #d6defc, #c1d1ff); /* Bleu royal adouci */
-    color: #1e2a50; /* Bleu profond pour le texte */
+    background: linear-gradient(to bottom, #d6defc, #c1d1ff);
+    color: #1e2a50;
 }
 
-/* Menu horizontal */
+/* Header */
 header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
-    background-color: #1e2a50; /* Bleu profond */
+    background-color: #1e2a50;
     margin: 0;
     padding: 15px 0;
 }
@@ -42,7 +42,7 @@ header nav ul li {
     margin: 0 1rem;
 }
 
-/* Animation de surlignage progressif vers le haut */
+/* Animation hover elt du menu */
 header nav ul li a {
     position: relative;
     color: #ffffff;
@@ -60,9 +60,9 @@ header nav ul li a::before {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 25%; /* Commence plus haut */
+    bottom: 25%;
     width: 100%;
-    height: 12px; /* Ajusté pour être plus visible */
+    height: 12px;
     background-color: rgba(255, 255, 255, 0.5);
     transform: scaleY(0);
     transition: transform 0.3s ease-in-out;
@@ -73,7 +73,7 @@ header nav ul li a:hover::before {
     transform: scaleY(1);
 }
 
-/* Image intégrée et centrée */
+/* Big image */
 .centered-image {
     display: block;
     margin: 30px auto;
@@ -99,12 +99,12 @@ header nav ul li a:hover::before {
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: calc(100% * 5); /* Ajuster selon le nombre de partenaires */
+    width: calc(100% * 5); /* ajuster selon nombre partenaires */
 }
 
 .partenaire {
     min-width: 33.33%;
-    flex: 0 0 33.33%; /* Permet d'afficher 3 partenaires à la fois */
+    flex: 0 0 33.33%; /* affiche 3 partenaires à la fois ! */
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
@@ -123,7 +123,7 @@ header nav ul li a:hover::before {
     font-family: 'True Typwriter', sans-serif;
 }
 
-/* Boutons de navigation du slider */
+/* Boutons du slider */
 .slider-btn {
     position: absolute;
     top: 50%;
@@ -145,8 +145,7 @@ header nav ul li a:hover::before {
     right: 10px;
 }
 
-
-/* Conteneur de l'effet de maillage */
+/* Conteneur particules */
 #particles-js {
     position: fixed;
     width: 100%;
