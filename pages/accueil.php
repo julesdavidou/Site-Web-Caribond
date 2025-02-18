@@ -1,6 +1,41 @@
 <?php
 $page_title = "Accueil - Cari’Bond";
 $body_class = "page-accueil";
+
+$response = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $message = $_POST['message'];
+    $apiKey = '3IUaBHrwC6R8iRyNrGaKMQHJrPv1YI9f';
+    $apiUrl = 'https://api.mistral.ai/v1/chat/completions';
+
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, $apiUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+        'model' => 'mistral-large-latest',
+        'messages' => [['role' => 'user', 'content' => $message]]
+    ]));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'Accept: application/json',
+        'Authorization: Bearer ' . $apiKey
+    ]);
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if ($httpCode === 200) {
+        $responseData = json_decode($response, true);
+        $response = $responseData['choices'][0]['message']['content'];
+    } else {
+        $response = 'Erreur lors de l\'envoi du message. Code HTTP: ' . $httpCode;
+    }
+
+    curl_close($ch);
+}
 ?>
 
 <div id="particles-js"></div>
@@ -42,6 +77,22 @@ $body_class = "page-accueil";
                 </div>
                 <button class="slider-btn right" onclick="nextSlide()">❯</button>
             </div>
+        </section>
+
+        <section id="chat">
+            <h2>Chat avec Cari’Bond</h2>
+            <form method="POST" action="">
+                <label for="message">Envoyez un message :</label>
+                <input type="text" id="message" name="message" required>
+                <button type="submit">Envoyer</button>
+            </form>
+
+            <?php if (isset($response)): ?>
+                <div class="response">
+                    <h3>Réponse :</h3>
+                    <p><?php echo htmlspecialchars($response); ?></p>
+                </div>
+            <?php endif; ?>
         </section>
     </main>
 </div>
