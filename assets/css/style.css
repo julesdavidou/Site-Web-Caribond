@@ -251,6 +251,10 @@ header nav ul li a:hover::before {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Page Productions */
 .video-container {
     position: relative;
@@ -266,4 +270,97 @@ header nav ul li a:hover::before {
     transform: translateX(-50%);
     width: 65%;
     height: 65%;
+}
+
+/* Style de la fenêtre de chat avec Mistral */
+.chat-icon {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-window {
+    position: fixed;
+    bottom: 155px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-chat {
+    cursor: pointer;
+    font-size: 24px;
+    font-family: sans-serif; 
+}
+
+.chat-body {
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chat-body form {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-body form label {
+    margin-bottom: 10px;
+}
+
+.chat-body form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-body form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chat-body .response {
+    margin-top: 20px;
+}
+
+.chat-body .response h3 {
+    margin-bottom: 10px;
+}
+
+.chat-body .response p {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
 }

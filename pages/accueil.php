@@ -1,41 +1,6 @@
 <?php
 $page_title = "Accueil - Cari’Bond";
 $body_class = "page-accueil";
-
-$response = null;
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $message = $_POST['message'];
-    $apiKey = '3IUaBHrwC6R8iRyNrGaKMQHJrPv1YI9f';
-    $apiUrl = 'https://api.mistral.ai/v1/chat/completions';
-
-    $ch = curl_init();
-
-    curl_setopt($ch, CURLOPT_URL, $apiUrl);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
-        'model' => 'mistral-large-latest',
-        'messages' => [['role' => 'user', 'content' => $message]]
-    ]));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        'Content-Type: application/json',
-        'Accept: application/json',
-        'Authorization: Bearer ' . $apiKey
-    ]);
-
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
-    if ($httpCode === 200) {
-        $responseData = json_decode($response, true);
-        $response = $responseData['choices'][0]['message']['content'];
-    } else {
-        $response = 'Erreur lors de l\'envoi du message. Code HTTP: ' . $httpCode;
-    }
-
-    curl_close($ch);
-}
 ?>
 
 <div id="particles-js"></div>
@@ -44,6 +9,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main>
         <h1>Bienvenue chez Cari’Bond</h1>
         <p>Ceci est le début de votre mission. Explorez nos différentes pages et découvrez les secrets des agents Cari’Bond !</p>
+
+        <!-- Chat Icon and Window -->
+        <div id="chat-icon" class="chat-icon">💬</div>
+        <div id="chat-window" class="chat-window">
+            <div class="chat-header">
+                <h3>Chat avec Cari’Bond</h3>
+                <span id="close-chat" class="close-chat">&times;</span>
+            </div>
+            <div class="chat-body">
+                <form id="chat-form" method="POST" action="">
+                    <label for="message">Envoyez un message :</label>
+                    <input type="text" id="message" name="message" required>
+                    <button type="submit">Envoyer</button>
+                </form>
+                <div id="chat-conversation">
+                    <?php if (isset($response)): ?>
+                        <div class="response">
+                            <h3>Réponse :</h3>
+                            <p><?php echo htmlspecialchars($response); ?></p>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+
 
         <img src="assets/images/Banniere.png" alt="Bannière Cari'Bond" class="styled-image centered-image">
 
@@ -78,21 +68,54 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <button class="slider-btn right" onclick="nextSlide()">❯</button>
             </div>
         </section>
-
-        <section id="chat">
-            <h2>Chat avec Cari’Bond</h2>
-            <form method="POST" action="">
-                <label for="message">Envoyez un message :</label>
-                <input type="text" id="message" name="message" required>
-                <button type="submit">Envoyer</button>
-            </form>
-
-            <?php if (isset($response)): ?>
-                <div class="response">
-                    <h3>Réponse :</h3>
-                    <p><?php echo htmlspecialchars($response); ?></p>
-                </div>
-            <?php endif; ?>
-        </section>
     </main>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('chat-icon').addEventListener('click', function() {
+        document.getElementById('chat-window').style.display = 'flex';
+    });
+
+    document.getElementById('close-chat').addEventListener('click', function() {
+        document.getElementById('chat-window').style.display = 'none';
+    });
+
+    document.getElementById('chat-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Empêche le rechargement de la page
+
+        const formData = new FormData(this);
+        const message = formData.get('message');
+
+        fetch('ajax_handler.php', { // Utilise le chemin relatif du fichier PHP pour les requêtes AJAX
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest' // Ajoute l'en-tête pour indiquer une requête AJAX
+            },
+            body: JSON.stringify({ message: message })
+        })
+        .then(response => {
+            console.log('Réponse brute :', response); // Ajoute un log de débogage
+            return response.text(); // Lis la réponse en tant que texte brut
+        })
+        .then(text => {
+            console.log('Texte de la réponse :', text); // Ajoute un log de débogage
+            try {
+                const data = JSON.parse(text);
+                const conversationDiv = document.getElementById('chat-conversation');
+                const responseDiv = document.createElement('div');
+                responseDiv.classList.add('response');
+                responseDiv.innerHTML = `<h3>Réponse :</h3><p>${data.response}</p>`;
+                conversationDiv.appendChild(responseDiv);
+                this.reset(); // Réinitialise le formulaire
+            } catch (error) {
+                console.error('Erreur lors de la conversion JSON :', error);
+            }
+        })
+        .catch(error => {
+            console.error('Erreur :', error);
+        });
+    });
+});
+</script>
