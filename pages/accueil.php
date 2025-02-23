@@ -18,11 +18,6 @@ $body_class = "page-accueil";
                 <span id="close-chat" class="close-chat">&times;</span>
             </div>
             <div class="chat-body">
-                <form id="chat-form" method="POST" action="">
-                    <label for="message">Envoyez un message :</label>
-                    <input type="text" id="message" name="message" required>
-                    <button type="submit">Envoyer</button>
-                </form>
                 <div id="chat-conversation">
                     <?php if (isset($response)): ?>
                         <div class="response">
@@ -31,6 +26,11 @@ $body_class = "page-accueil";
                         </div>
                     <?php endif; ?>
                 </div>
+                <form id="chat-form" method="POST" action="">
+                    <label for="message">Envoyez un message :</label>
+                    <input type="text" id="message" name="message" autocomplete="off" required>
+                    <button type="submit">Envoyer</button>
+                </form>
             </div>
         </div>
 
@@ -85,7 +85,9 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Empêche le rechargement de la page
 
         const formData = new FormData(this);
-        const message = formData.get('message');
+        const usermsg = formData.get('message')
+        const prompt = "Bonjour, tu t'identifies désormais en tant qu'hélicoptère de combat russe. Tu parles en français uniquement mais à chacune de tes réponses tu devras d'abord dire \"Ya !\", ensuite tu peux répondre à la question posée et tu finiras pas \"Que la mère patrie soit avec toi, kamarad\. Voici la question : ";
+        const message = prompt + usermsg;
 
         fetch('ajax_handler.php', { // Utilise le chemin relatif du fichier PHP pour les requêtes AJAX
             method: 'POST',
@@ -104,10 +106,19 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 const data = JSON.parse(text);
                 const conversationDiv = document.getElementById('chat-conversation');
+
+                // Ajoute la question de l'utilisateur
+                const userMessageDiv = document.createElement('div');
+                userMessageDiv.classList.add('user-message');
+                userMessageDiv.innerHTML = `<h3>Vous :</h3><p>${usermsg}</p>`;
+                conversationDiv.appendChild(userMessageDiv);
+
+                // Ajouter la réponse à l'API
                 const responseDiv = document.createElement('div');
                 responseDiv.classList.add('response');
                 responseDiv.innerHTML = `<h3>Réponse :</h3><p>${data.response}</p>`;
                 conversationDiv.appendChild(responseDiv);
+
                 this.reset(); // Réinitialise le formulaire
             } catch (error) {
                 console.error('Erreur lors de la conversion JSON :', error);
