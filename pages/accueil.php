@@ -7,19 +7,6 @@ $body_class = "page-accueil";
 
 <div class="container my-5">
     <main>
-        <div class="loader">
-            <span class="lettre">C</span>
-            <span class="lettre">H</span>
-            <span class="lettre">A</span>
-            <span class="lettre">R</span>
-            <span class="lettre">G</span>
-            <span class="lettre">E</span>
-            <span class="lettre">M</span>
-            <span class="lettre">E</span>
-            <span class="lettre">N</span>
-            <span class="lettre">T</span>
-        </div>
-
         <h1>Bienvenue chez Cari’Bond</h1>
         <p>Ceci est le début de votre mission. Explorez nos différentes pages et découvrez les secrets des agents Cari’Bond !</p>
 
@@ -174,12 +161,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-const loader = document.querySelector('.loader');
-
-window.addEventListener('load', () => {
-
-    loader.classList.add('fondu-out');
-
-})
 </script>

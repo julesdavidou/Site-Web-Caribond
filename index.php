@@ -14,3 +14,4 @@ if (!in_array($page, $allowed_pages)) {
 include 'includes/header.php';
 include "pages/$page.php";
 include 'includes/footer.php';
+include 'includes/loader.php';
