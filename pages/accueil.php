@@ -25,28 +25,33 @@ $body_class = "page-accueil";
 
         <!-- Chat Icon and Window -->
         <div id="chat-icon" class="chat-icon">💬</div>
-        <div id="chat-window" class="chat-window">
+        <div class="chat-window" id="chat-window">
             <div class="chat-header">
                 <h3>Chat avec Cari’Bond</h3>
                 <span id="close-chat" class="close-chat">&times;</span>
             </div>
-            <div class="chat-body">
+            <div id="chat-body" class="chat-body">
                 <div id="chat-conversation">
+                    <!-- Messages s'affichent ici -->
                     <?php if (isset($response)): ?>
-                        <div class="response">
-                            <h3>Réponse :</h3>
-                            <p><?php echo htmlspecialchars($response); ?></p>
-                        </div>
+                    <div class="response">
+                        <h3>Réponse :</h3>
+                        <p><?php echo htmlspecialchars($response); ?></p>
+                    </div>
                     <?php endif; ?>
                 </div>
+            </div>
+            <div class="chat-footer">
                 <form id="chat-form" method="POST" action="">
-                    <label for="message">Envoyez un message :</label>
-                    <input type="text" id="message" name="message" autocomplete="off" required>
-                    <button type="submit">Envoyer</button>
+                <div class="input-group">
+                    <input type="text" id="message" name="message" placeholder="Envoyez un message" autocomplete="off" required>
+                    <button type="submit" class="send-button">
+                    <img src="assets/images/up-arrow.svg" alt="Envoyer">
+                    </button>
+                </div>
                 </form>
             </div>
         </div>
-
 
         <img src="assets/images/Banniere.png" alt="Bannière Cari'Bond" class="styled-image centered-image">
 
@@ -86,6 +91,18 @@ $body_class = "page-accueil";
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    const messageInput = document.getElementById("message");
+    const sendButton = document.querySelector(".send-button");
+
+    messageInput.addEventListener("input", () => {
+        if (messageInput.value.trim() !== "") {
+            sendButton.classList.add("active");
+        } else {
+            sendButton.classList.remove("active");
+        }
+    });
+
+    const chatConversation = document.getElementById("chat-conversation");
     document.getElementById('chat-icon').addEventListener('click', function() {
         document.getElementById('chat-window').style.display = 'flex';
     });
@@ -96,6 +113,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('chat-form').addEventListener('submit', function(event) {
         event.preventDefault(); // Empêche le rechargement de la page
+        const chatBody = document.getElementById("chat-body");
+        const chatLoader = document.createElement('div');
+        chatLoader.classList.add('chat-loader');
+
+        // Permet de faire en sorte que le bouton d'envoi redevienne inactif
+        sendButton.classList.remove("active");
+
+        // Pas besoin de .id.add(), c'est une propriété :
+        chatLoader.id = 'chat-loader'; 
+
+        chatLoader.innerHTML = `<div class="spinner"></div>`;
+        chatBody.appendChild(chatLoader);
 
         const formData = new FormData(this);
         const usermsg = formData.get('message')
@@ -120,16 +149,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 const data = JSON.parse(text);
                 const conversationDiv = document.getElementById('chat-conversation');
 
+                 // Après réception de la réponse de l'IA
+                chatLoader.remove();
+
                 // Ajoute la question de l'utilisateur
                 const userMessageDiv = document.createElement('div');
                 userMessageDiv.classList.add('user-message');
-                userMessageDiv.innerHTML = `<h3>Vous :</h3><p>${usermsg}</p>`;
+                userMessageDiv.innerHTML = `<div class="labelMessage">Vous</div><p>${usermsg}</p>`;
                 conversationDiv.appendChild(userMessageDiv);
 
                 // Ajouter la réponse à l'API
                 const responseDiv = document.createElement('div');
                 responseDiv.classList.add('response');
-                responseDiv.innerHTML = `<h3>Réponse :</h3><p>${data.response}</p>`;
+                responseDiv.innerHTML = `<div class="labelReponse">Caribot</div><p>${data.response}</p>`;
                 conversationDiv.appendChild(responseDiv);
 
                 this.reset(); // Réinitialise le formulaire

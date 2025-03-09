@@ -287,23 +287,29 @@ header nav ul li a:hover::before {
     font-size: 24px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10001;
 }
 
+/* Style global de la fenêtre de chat */
 .chat-window {
     position: fixed;
-    bottom: 155px;
+    bottom: 75px;
     right: 20px;
     width: 300px;
+    height: 500px; /* Hauteur totale fixe */
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    z-index: 10000;
     display: none;
-    flex-direction: column;
-    z-index: 1000;
-}
-
-.chat-header {
+  }
+  
+  /* Chat header : hauteur fixe en haut */
+  .chat-header {
+    width: calc(100% + 2px);
+    margin: -1px;
     background-color: #007bff;
     color: white;
     padding: 10px;
@@ -312,20 +318,107 @@ header nav ul li a:hover::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    height: 50px;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Chat footer : conteneur du formulaire fixé en bas */
+  .chat-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
 
-.close-chat {
+  .close-chat {
     cursor: pointer;
     font-size: 24px;
     font-family: sans-serif; 
 }
-
-.chat-body {
-    padding: 15px;
-    height: 300px;
+  
+  /* Chat body : occupe l'espace entre le header et le footer */
+  .chat-body {
+    position: absolute;
+    top: 50px;      /* même hauteur que le header */
+    bottom: 60px;   /* hauteur approximative du footer + padding */
+    left: 0;
+    right: 0;
     overflow-y: auto;
-}
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Exemple pour le groupe input dans le footer */
+  .input-group {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 50px 10px 10px; /* espace à droite pour le bouton */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* arrondi complet */
+    outline: none;
+    font-family: 'True Typwriter', sans-serif;
+  }
+  
+  .input-group .send-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .input-group .send-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #ccc; /* fond rond gris */
+    border-radius: 50%;
+    z-index: -1;
+  }
 
+  .input-group .send-button.active::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .input-group .send-button img {
+    width: 16px;
+    height: auto;
+    display: block;
+  }
+
+  .input-group .send-button.active img {
+    width: 16px;
+    height: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+  }
+  
 .chat-body form {
     display: flex;
     flex-direction: column;
@@ -341,6 +434,7 @@ header nav ul li a:hover::before {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-family: 'True Typwriter';
+    margin-top: auto; /* pousse le formulaire vers le bas */
 }
 
 .chat-body form button {
@@ -361,16 +455,69 @@ header nav ul li a:hover::before {
 }
 
 .chat-body .response p {
+    background-color: #f0f0f0; 
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+    display: block;       /* pour contrôler les marges */
+    max-width: 75%;       /* limite à 75% de la largeur */
+    margin: 5px 0;
+    margin-right: auto;   /* aligne à gauche */
+    font-family: 'True Typwriter';
+}
+
+.user-message {
+    text-align: right; /* aligne les éléments enfants à droite */
+  }
+  
+  .user-message p {
     background-color: #e0f7fa;
     padding: 10px;
     border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: left;      /* le texte à l'intérieur reste aligné à gauche */
+    display: inline-block; /* l'élément ne prend que la largeur nécessaire */
+    max-width: 75%;
+    font-family: 'True Typwriter';
+  }
+
+.labelMessage {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+.labelReponse {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
-.user-message p {
-    background-color: #f0f0f0;
+.chat-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 10px;
+}
+
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #7D2AE7;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Masquer le loader par défaut */
+.hidden {
+    display: none;
 }
 
 /* loader */
