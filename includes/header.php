@@ -19,7 +19,6 @@
             <li><a href="index.php?page=divisions">Divisions</a></li>
             <li><a href="index.php?page=shotguns">Shotguns</a></li>
             <li><a href="index.php?page=productions">Productions</a></li>
-            <li><a href="index.php?page=taxis">Taxis</a></li>
         </ul>
     </nav>
 </header>

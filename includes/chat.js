@@ -10,13 +10,23 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const chatConversation = document.getElementById("chat-conversation");
-    document.getElementById('chat-icon').addEventListener('click', function() {
-        document.getElementById('chat-window').style.display = 'flex';
-    });
+    const chatIcon = document.getElementById('chat-icon');
+    const chatWindow = document.getElementById('chat-window');
+    const closeChat = document.getElementById('close-chat');
 
-    document.getElementById('close-chat').addEventListener('click', function() {
-        document.getElementById('chat-window').style.display = 'none';
+    const chatConversation = document.getElementById("chat-conversation");
+    chatIcon.addEventListener('click', function() {
+        chatWindow.style.display = 'flex'; // Ou block selon le cas
+        setTimeout(() => {
+            chatWindow.classList.add('open');
+        }, 10); // Petite pause pour forcer la transition
+    });
+    
+    closeChat.addEventListener('click', function() {
+        chatWindow.classList.remove('open');
+        setTimeout(() => {
+            chatWindow.style.display = 'none';
+        }, 300); // Doit correspondre à la durée de transition CSS
     });
 
     document.getElementById('chat-form').addEventListener('submit', function(event) {
