@@ -415,9 +415,9 @@ KEY_CODES = {
   
     this.preMove = function (delta) {
       if (KEY_STATUS.left) {
-        this.vel.rot = -6;
+        this.vel.rot = -10;
       } else if (KEY_STATUS.right) {
-        this.vel.rot = 6;
+        this.vel.rot = 10;
       } else {
         this.vel.rot = 0;
       }
@@ -430,6 +430,11 @@ KEY_CODES = {
       } else {
         this.acc.x = 0;
         this.acc.y = 0;
+
+        // Applique la friction sur la vitesse directement
+        this.vel.x *= 0.994;  // Ajuste le facteur ici
+        this.vel.y *= 0.994;
+
         this.children.exhaust.visible = false;
       }
   
@@ -438,7 +443,7 @@ KEY_CODES = {
       }
       if (KEY_STATUS.space) {
         if (this.bulletCounter <= 0) {
-          this.bulletCounter = 10;
+          this.bulletCounter = 5;
           for (var i = 0; i < this.bullets.length; i++) {
             if (!this.bullets[i].visible) {
               SFX.laser();
@@ -792,8 +797,8 @@ KEY_CODES = {
     this.collision = function (other) {
       SFX.explosion();
       if (other.name == "bullet") Game.score += 120 / this.scale;
-      this.scale /= 3;
-      if (this.scale > 0.5) {
+      this.scale /= 2;
+      if (this.scale > 1) {
         // break into fragments
         for (var i = 0; i < 3; i++) {
           var roid = $.extend(true, {}, this);
