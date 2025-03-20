@@ -63,14 +63,20 @@ $body_class = "page-accueil";
                         <p>Lyf - Partenaires payements 👑</p>
                     </div>
                     <div class="partenaire">
-                        <img src="assets/images/V&B.png" alt="Logo V&B">
-                        <p>V&B - Toujours là 🍺</p>
-                    </div>
-                    <div class="partenaire">
                         <a href="https://clk.tradedoubler.com/click?p=200547&a=3417704&g=25706016">
                             <img src="assets/images/Monabanq.svg" alt="Logo Monabanq">
                         </a>
                         <p>Monabanq - Cliquez sur l'image !</p>
+                    </div>
+                    <div class="partenaire">
+                        <a href="https://clk.tradedoubler.com/click?p=200547&a=3417704&g=25706016">
+                            <img src="assets/images/logo_NordVPN.png" alt="Logo NordVPN">
+                        </a>
+                        <p>NordVPN - Un code promo !</p>
+                    </div>
+                    <div class="partenaire">
+                        <img src="assets/images/V&B.png" alt="Logo V&B">
+                        <p>V&B - Toujours là 🍺</p>
                     </div>
                     <div class="partenaire">
                         <a href="https://africallfood.com/">

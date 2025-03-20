@@ -5,7 +5,7 @@ require_once 'db.php';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'accueil';
 
-$allowed_pages = ['accueil', 'divisions', 'productions', 'programme', 'shotguns', 'taxis', 'phpinfo'];
+$allowed_pages = ['accueil', 'divisions', 'productions', 'programme', 'shotguns', 'taxis', 'defis', 'phpinfo'];
 
 if (!in_array($page, $allowed_pages)) {
     $page = 'accueil';
