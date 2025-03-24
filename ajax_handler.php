@@ -1,10 +1,53 @@
 <?php
+// Fonction pour journaliser les requêtes
+function log_chat($ip, $message, $status = 'OK') {
+    $log_line = "[" . date('Y-m-d H:i:s') . "] IP: $ip | Status: $status | Message: " . str_replace(array("\r", "\n"), " ", $message) . "\n";
+    file_put_contents('chat_logs.txt', $log_line, FILE_APPEND);
+}
+
+// Fonction pour détecter le spam : plus de 5 messages par IP en moins de 60 secondes
+function is_spamming($ip, $threshold = 6, $interval = 60) {
+    $logfile = 'chat_logs.txt';
+    if (!file_exists($logfile)) {
+        return false;
+    }
+    $lines = file($logfile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $count = 0;
+    $now = time();
+    foreach ($lines as $line) {
+        if (strpos($line, "IP: $ip") !== false) {
+            if (preg_match('/\[(.*?)\]/', $line, $matches)) {
+                $timestamp = strtotime($matches[1]);
+                if (($now - $timestamp) <= $interval) {
+                    $count++;
+                }
+            }
+        }
+    }
+    return $count >= $threshold;
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Obtenir l'adresse IP du client
+    $client_ip = $_SERVER['REMOTE_ADDR'];
+    
     // Lire les données JSON envoyées
     $data = json_decode(file_get_contents('php://input'), true);
 
     if (isset($data['message'])) {
         $message = $data['message'];
+
+        // Vérifier si l'IP spamme
+        if (is_spamming($client_ip)) {
+            log_chat($client_ip, $message, 'Spam détecté');
+            echo json_encode(['response' => 'Trop de messages envoyés. Veuillez patienter.']);
+            exit();
+        }
+
+        // Journaliser le message reçu
+        log_chat($client_ip, $message);
+
+        // Appel à l'API Mistral
         $apiKey = '3IUaBHrwC6R8iRyNrGaKMQHJrPv1YI9f';
         $apiUrl = 'https://api.mistral.ai/v1/chat/completions';
 
@@ -28,9 +71,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($httpCode === 200) {
             $responseData = json_decode($response, true);
-            $response = $responseData['choices'][0]['message']['content'];
-            echo json_encode(['response' => $response]);
+            $responseMessage = $responseData['choices'][0]['message']['content'];
+            // Journaliser la réponse envoyée par l'API
+            log_chat($client_ip, $responseMessage, 'Réponse OK');
+            echo json_encode(['response' => $responseMessage]);
         } else {
+            log_chat($client_ip, $message, 'Erreur HTTP: ' . $httpCode);
             echo json_encode(['error' => 'Erreur lors de l\'envoi du message. Code HTTP: ' . $httpCode]);
         }
 
@@ -39,6 +85,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo json_encode(['error' => 'Le message est manquant dans la requête.']);
     }
 
-    exit(); // Arrête l'exécution du script après avoir renvoyé la réponse JSON
+    exit();
 }
 ?>
