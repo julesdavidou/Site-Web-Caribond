@@ -8,7 +8,6 @@ $body_class = "page-divisions";
     <main>
         <h1>Défis</h1>
 
-
         <div class="telechargement_passport">
             <a href="URL_DE_DESTINATION" style="text-decoration: none; color: #1e2a50;">
             <p>Téléchargez et imprimez votre passeport !</p>
@@ -41,6 +40,8 @@ $body_class = "page-divisions";
             <!--Ceci est un div pour que le footer ne soit pas sous les cartes -->
         </div>
 
+        <!-- sans titre masi pas ajusté -->
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQibCxBsDaviPDbL-b8yqpAcfFDmgyf0sNVB4aTMpL9BLcnDbbmomQGPcbqWhN40FwPntpjaAJXb8J/pubhtml?gid=870713603&single=true&widget=true&headers=false&chrome=false"></iframe>
 
     </main>
 </div>
