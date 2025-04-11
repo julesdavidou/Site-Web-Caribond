@@ -40,7 +40,7 @@ $body_class = "page-accueil";
             </div>
         </div>
 
-        <img src="assets/images/Banniere.png" alt="Bannière Cari'Bond" class="styled-image centered-image">
+        <img src="assets/images/Bannière_test.webp" alt="Bannière Cari'Bond" class="styled-image centered-image">
 
         <section id="partenaires">
             <h2>Nos Partenaires</h2>
