@@ -47,29 +47,50 @@ $body_class = "page-accueil";
             <p>Nous remercions chaleureusement nos partenaires pour leur soutien.</p>
 
             <div class="slider-container">
-                <button class="slider-btn left" onclick="prevSlide()">❮</button>
                 <div class="slider">
                     <div class="partenaire">
-                        <img src="assets/images/LyfPay.png" alt="Logo LyfPay">
-                        <p>LyfPay - Les rois 👑</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.fivory.prod">
+                            <img src="assets/images/Lyf-corail.svg" alt="Logo Lyf">
+                        </a>
+                        <p>Lyf - Partenaires payements 👑</p>
+                    </div>
+                    <div class="partenaire">
+                        <a href="https://clk.tradedoubler.com/click?p=200547&a=3417704&g=25706016">
+                            <img src="assets/images/Monabanq.svg" alt="Logo Monabanq">
+                        </a>
+                        <p>Monabanq - Cliquez sur l'image !</p>
+                    </div>
+                    <div class="partenaire">
+                        <a href="https://clk.tradedoubler.com/click?p=200547&a=3417704&g=25706016">
+                            <img src="assets/images/logo_NordVPN.png" alt="Logo NordVPN">
+                        </a>
+                        <p>NordVPN - Un code promo !</p>
                     </div>
                     <div class="partenaire">
                         <img src="assets/images/V&B.png" alt="Logo V&B">
                         <p>V&B - Toujours là 🍺</p>
                     </div>
                     <div class="partenaire">
-                        <img src="assets/images/VUC.webp" alt="Logo VUC">
-                        <p>VUC - Innovateurs 🏀</p>
+                        <a href="https://africallfood.com/">
+                            <img src="assets/images/africal_food_logo.webp" alt="Logo Afin Call Food">
+                        </a>
+                        <p>Afri Call Food VA - 2 menus gratuits !</p>
                     </div>
                     <div class="partenaire">
-                        <img src="assets/images/partenaire.jpg" alt="Partenaire 4">
-                        <p>Partenaire 4</p>
+                        <a href="https://www.pikaro.fr/">
+                            <img src="assets/images/logos-pikaro-pro.svg" alt="Logo La boite à café">
+                        </a>
+                        <p>La boite à café - Des bons de réduction !</p>
                     </div>
                     <div class="partenaire">
-                        <img src="assets/images/partenaire.jpg" alt="Partenaire 5">
-                        <p>Partenaire 5</p>
+                        <a href="https://www.saveurs-et-decouvertes.com/">
+                            <img src="assets/images/saveurs-et-decouvertes-valenciennes.jpg" alt="Logo Saveur et découverte">
+                        </a>
+                        <p>Saveur et découverte - Pleins de lots !</p>
                     </div>
                 </div>
+                <button class="slider-btn left" onclick="prevSlide()">❮</button>
+
                 <button class="slider-btn right" onclick="nextSlide()">❯</button>
             </div>
         </section>
