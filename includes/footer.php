@@ -6,6 +6,5 @@
 
 <script src="assets/js/particles.min.js"></script>
 <script src="assets/js/config_particules.js"></script>
-<script src="assets/js/slider.js"></script>
 </body>
 </html>

@@ -5,131 +5,56 @@ $body_class = "page-divisions";
 
 <div id="particles-js"></div>
 
-<div class="container my-5">
-    <main>
-        <h1>Divisions</h1>
-        <div class="teams-container">
-            <div class="team">
-                <h2>Bureau</h2>
-                <img src="assets/images/team-alpha.jpg" alt="Photo de l'équipe Alpha">
-                <p class="description">L'équipe Alpha se charge de l'architecture technique du projet et assure sa stabilité.</p>
-                <ul class="members-list">
-                    <li>Lia - <span class="role">Manager</span></li>
-                    <li>Jean - <span class="role">Spécialiste UX/UI</span></li>
-                    <li>Carl - <span class="role">Ingénieur DevOps</span></li>
-                    <li>Rayan - <span class="role">Ingénieur DevOps</span></li>
-                    <li>Agathe - <span class="role">Ingénieur DevOps</span></li>
-                    <li>Laia - <span class="role">Ingénieur DevOps</span></li>
-                </ul>
-            </div>
+<div class="performar_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <?php 
+            $divisions = [
+                ["name" => "Bureau", "img" => "assets/images/team-alpha.jpg", "desc" => "L'équipe qui gère toute l'organisation.", "link" => "bureau.php"],
+                ["name" => "BDS", "img" => "assets/images/team-beta.jpg", "desc" => "Gestion du sport et des événements sportifs.", "link" => "bds.php"],
+                ["name" => "BDA", "img" => "assets/images/team-alpha.jpg", "desc" => "Culture, arts et spectacles.", "link" => "bda.php"],
+                ["name" => "Comm", "img" => "assets/images/team-beta.jpg", "desc" => "Communication et marketing de la liste.", "link" => "comm.php"],
+                ["name" => "Opé", "img" => "assets/images/team-alpha.jpg", "desc" => "Organisation des événements et soirées.", "link" => "ope.php"],
+                ["name" => "Partenariats", "img" => "assets/images/team-beta.jpg", "desc" => "Gestion des sponsors et partenaires.", "link" => "partenariats.php"],
+            ];
 
-            <div class="team">
-                <h2>BDS</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Blandine - <span class="role">Chef de projet</span></li>
-                    <li>Robin - <span class="role">Développeuse Front-end</span></li>
-                    <li>Quentin - <span class="role">Graphiste</span></li>
-                    <li>Paula - <span class="role">Graphiste</span></li>
-                    <li>Benjamin - <span class="role">Graphiste</span></li>
-                    <li>Nicolas - <span class="role">Graphiste</span></li>
-                    <li>Quentin - <span class="role">Graphiste</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>BDA</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Tizio - <span class="role">Chef de projet</span></li>
-                    <li>Finnlake - <span class="role">Développeuse Front-end</span></li>
-                    <li>Camille - <span class="role">Graphiste</span></li>
-                    <li>Sanick - <span class="role">Graphiste</span></li>
-                    <li>Carlina - <span class="role">Graphiste</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Comm</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Audrey - <span class="role">Chef de projet</span></li>
-                    <li>Keyne - <span class="role">Développeuse Front-end</span></li>
-                    <li>Jules - <span class="role">Graphiste</span></li>
-                    <li>Justine - <span class="role">Graphiste</span></li>
-                    <li>Zoé - <span class="role">Graphiste</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Opé</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Marion - <span class="role">Chef de projet</span></li>
-                    <li>Noémie - <span class="role">Développeuse Front-end</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Inclusion</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Klervi - <span class="role">Chef de projet</span></li>
-                    <li>? - <span class="role">Développeuse Front-end</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Soirée</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Mathias - <span class="role">Chef de projet</span></li>
-                    <li>Jules - <span class="role">Développeuse Front-end</span></li>
-                    <li> - <span class="role">Graphiste</span></li>
-                    <li> - <span class="role">Graphiste</span></li>
-                    <li> - <span class="role">Graphiste</span></li>
-                    <li> - <span class="role">Graphiste</span></li>
-                    <li> - <span class="role">Graphiste</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>BDI</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Jules - <span class="role">Chef de projet</span></li>
-                    <li>Keyne - <span class="role">Développeuse Front-end</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Assos & CLubs</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Etienne - <span class="role">Chef de projet</span></li>
-                    <li>? - <span class="role">Développeuse Front-end</span></li>
-                </ul>
-            </div>
-
-            <div class="team">
-                <h2>Partenariats</h2>
-                <img src="assets/images/team-beta.jpg" alt="Photo de l'équipe Beta">
-                <p class="description">L'équipe Beta est responsable de l'expérience utilisateur et du design interactif.</p>
-                <ul class="members-list">
-                    <li>Cyril - <span class="role">Chef de projet</span></li>
-                    <li>Sam - <span class="role">Développeuse Front-end</span></li>
-                    <li>Niels - <span class="role">Graphiste</span></li>
-                    <li>Hugo - <span class="role">Graphiste</span></li>
-                </ul>
-            </div>
+            foreach ($divisions as $division) {
+                echo '
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div data-tilt class="thumb shadow-lg">
+                            <a href="'.$division["link"].'">
+                                <img src="'.$division["img"].'" alt="Photo '.$division["name"].'">
+                            </a>
+                        </div>
+                        <div class="performer_heading">
+                            <div id="title-'.$division["name"].'" class="division-title"></div>
+                            <span>'.$division["desc"].'</span>
+                        </div>
+                    </div>
+                </div>';
+            }
+            ?>
         </div>
-    </main>
+    </div>
 </div>
+
+<script src="assets/js/text-animation.js"></script>
+
+<script src="assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/tilt.jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.thumb').tilt({
+            axis: x,
+            scale: 1.1,
+            glare: true,
+            maxGlare: .3
+        });
+    });
+</script>

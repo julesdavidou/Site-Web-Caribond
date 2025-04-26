@@ -77,3 +77,5 @@ $body_class = "page-accueil";
 </div>
 
 <script src='includes/chat.js'></script>
+
+<script src="assets/js/slider.js"></script>
