@@ -151,3 +151,5 @@ window.addEventListener('load', () => {
 
 })
 </script>
+
+<script src="assets/js/slider.js"></script>

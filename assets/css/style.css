@@ -447,3 +447,122 @@ header nav ul li a:hover::before {
     transition: opacity 0.4s ease-out;
     pointer-events: none; /* Permet d'interagir avec la page après la disparition */
 }
+
+/* Teams */
+/* Ajustement global des sections */
+.performar_area {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.performar_area .single_performer {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Gestion des images */
+.performar_area .single_performer .thumb {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.performar_area .single_performer .thumb img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+/* Effet hover */
+.performar_area .single_performer:hover .thumb img {
+    transform: scale(1.05);
+}
+
+/* Gestion des titres */
+.performar_area .single_performer .performer_heading {
+    margin-top: 20px;
+}
+
+.performar_area .single_performer .performer_heading h4 {
+    font-size: 30px;
+    font-family: "Neutraface Text Bold", sans-serif;
+    color: #5760e5;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.performar_area .single_performer .performer_heading span {
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Responsive : 2 colonnes sur desktop, 1 sur mobile */
+@media (max-width: 767px) {
+    .performar_area {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .performar_area .single_performer {
+        margin-bottom: 30px;
+    }
+}
+
+/* Animation sur le texte des divisions */
+.division-title {
+    font-family: 'Neutraface Text Bold', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.division-title .wrapper {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: auto;
+    transition: ease 0.3s all;
+}
+
+.division-title span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: ease 0.3s all;
+}
+
+.division-title .letter-2 {
+    color: rgba(255, 85, 0, 0.5); /* Orange */
+}
+
+.division-title .letter-1 {
+    color: rgba(50, 50, 150, 0.7); /* Bleu foncé */
+    z-index: 1;
+}
+
+.division-title .letter-1:hover {
+    top: -3px;
+    right: -3px;
+}
+
+.division-title .letter-1:hover ~ .letter-2 {
+    top: 3px;
+    right: 3px;
+}
+
+.division-title .space {
+    padding: 0;
+    min-width: 10px;
+    display: inline-block;
+}
