@@ -306,7 +306,7 @@
                             <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Inclusion.webp" data-object-fit="cover" srcset="assets/img/unites/Inclusion.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-container-core-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
+                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
                                     <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size wp-elements-77e08894f22eeaf9c1abcaddc15f8e97" style="margin-top:0;margin-bottom:0">Inclusion</h4>
 
                                     <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -394,7 +394,7 @@
                             <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Comm.webp" data-object-fit="cover" srcset="assets/img/unites/Comm.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-container-core-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
+                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
                                     <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size wp-elements-77e08894f22eeaf9c1abcaddc15f8e97" style="margin-top:0;margin-bottom:0">Com</h4>
 
                                     <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -438,7 +438,7 @@
                             <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/BDI.webp" data-object-fit="cover" srcset="assets/img/unites/BDI.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-container-core-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
+                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-7841e79b wp-block-cover-is-layout-constrained">
                                     <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size wp-elements-77e08894f22eeaf9c1abcaddc15f8e97" style="margin-top:0;margin-bottom:0">BDI</h4>
 
                                     <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -528,14 +528,27 @@
                     transform: rotateY(180deg);
                 }
                         
-                @media only screen and (min-width : 768px) {
-                    .scroll-horizontal{
+                @media only screen and (min-width: 768px) {
+                    .scroll-horizontal {
                         padding: 60px 20px !important;
                         flex-wrap: wrap !important;
-                        max-width: calc(330px* 3);
+                        max-width: calc(330px * 3);
                     }
                 }
-                
+
+                /* MOBILE: ajustement cartesd + slider */
+                @media only screen and (max-width: 767px) {
+                    .carte {
+                        width: 400px !important;
+                        height: 488px !important;
+                    }
+                    .scroll-horizontal {
+                        flex-wrap: nowrap !important;
+                        justify-content: flex-start !important;
+                        gap: 0.5rem !important;
+                        padding: 20px !important;
+                    }
+                }
             </style>
 
             <script>
