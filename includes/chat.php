@@ -1,3 +1,10 @@
+<a id="android-btn" class="chat-icon" href="https://example.com" target="_blank" rel="noopener">
+    <img src="assets/icons/ico-android.svg" alt="Android" />
+</a>
+<a id="apple-btn" class="chat-icon" href="https://example.com" target="_blank" rel="noopener">
+    <img src="assets/icons/ico-apple.svg" alt="Apple" />
+</a>
+
 <div id="chat-icon" class="chat-icon">💬</div>
 <div class="chat-window" id="chat-window">
     <div class="chat-header">

@@ -7,7 +7,7 @@
     position: fixed;
     bottom: 15px;
     right: 20px;
-    background-color: #007bff;
+    background-color: #627de8;
     color: white;
     border-radius: 50%;
     width: 50px;
@@ -19,6 +19,18 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 10000;
+}
+
+#android-btn {
+    right: 80px; /* 20px (bord) + 50px (icône) + 10px d’espace */
+}
+#apple-btn {
+    right: 140px; /* 20px + 2×(50px+10px) */
+}
+#android-btn img,
+#apple-btn img {
+    width: 24px;
+    height: auto;
 }
 
 /* Style global de la fenêtre de chat */
@@ -50,7 +62,7 @@
 .chat-header {
     width: calc(100% + 2px);
     margin: -1px;
-    background-color: #007bff;
+    background-color: #627de8;
     color: white;
     padding: 10px;
     border-top-left-radius: 8px;
@@ -198,7 +210,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 width: 30px;
 height: 30px;
-background-color: #007BFF;
+background-color: #627de8;
 border-radius: 50%;
 z-index: -1;
 }
@@ -236,7 +248,7 @@ filter: brightness(0) invert(1);
 
 .chat-body form button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #627de8;
     color: white;
     border: none;
     border-radius: 4px;
