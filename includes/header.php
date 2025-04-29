@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="/assets/css/global-styles.css" media="all">
     <link rel='stylesheet' href='/assets/css/style_init.css' media='all' />
     <link rel='stylesheet' href='/assets/css/style.css' media='all' />
+    <link rel='stylesheet' href='/assets/css/chat.css' media='all' />
     
     <!-- js -->
     <script src="/assets/js/jquery.min.js" id="jquery-core-js"></script>

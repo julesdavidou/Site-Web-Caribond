@@ -29,6 +29,8 @@
               sizes="(max-width: 1565px) 100vw, 1565px" /> 
         </div>
       </header>
+
+      <?php include 'includes/chat.php'; ?>
       
       <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family wp-elements-c1f4c55c64a0b298288e660591e0d694"><strong>LE MAXI JEU</strong></h2>
 

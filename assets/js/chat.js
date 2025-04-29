@@ -15,11 +15,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeChat = document.getElementById('close-chat');
 
     const chatConversation = document.getElementById("chat-conversation");
+    // bascule d'ouverture/fermeture
     chatIcon.addEventListener('click', function() {
-        chatWindow.style.display = 'flex'; // Ou block selon le cas
-        setTimeout(() => {
-            chatWindow.classList.add('open');
-        }, 10); // Petite pause pour forcer la transition
+        if (chatWindow.classList.contains('open')) {
+            // Fermer la fenêtre
+            chatWindow.classList.remove('open');
+            setTimeout(() => {
+                chatWindow.style.display = 'none';
+            }, 300); // correspond au temps de transition CSS
+        } else {
+            // Ouvrir la fenêtre
+            chatWindow.style.display = 'flex';
+            setTimeout(() => {
+                chatWindow.classList.add('open');
+            }, 10); // petit délai pour déclencher la transition
+        }
     });
     
     closeChat.addEventListener('click', function() {

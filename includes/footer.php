@@ -32,6 +32,7 @@
 </div> <!-- #page -->
     
 <script src="/assets/js/main.min.js" id="mainJS-js"></script>
+<script src='/assets/js/chat.js'></script>
 
 </body>
 

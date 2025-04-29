@@ -15,8 +15,9 @@
                 sizes="(max-width: 1565px) 100vw, 1565px" /> </div>
         </header>
 
-
         <div class="entry-content">
+
+            <?php include 'includes/chat.php'; ?>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>

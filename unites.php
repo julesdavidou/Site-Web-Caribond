@@ -14,6 +14,8 @@
 
         <div class="entry-content">
 
+            <?php include 'includes/chat.php'; ?>
+
             <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family wp-elements-c1f4c55c64a0b298288e660591e0d694"><strong>UNITÉS & ENGAGEMENTS</strong></h2>
 
             <div class="wp-block-group alignfull scroll-horizontal is-nowrap is-layout-flex wp-container-core-group-is-layout-bcde1d39 wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">

@@ -14,6 +14,8 @@
 
         <div class="entry-content">
 
+            <?php include 'includes/chat.php'; ?>
+
             <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family wp-elements-c1f4c55c64a0b298288e660591e0d694"><strong>MISSIONS</strong></h2>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>
