@@ -13,8 +13,8 @@
             <li><a href="https://caribond.fr/missions/">MISSIONS</a></li>
         </ul>
     </div>
-    <div class="menu-btn">
 
+    <div class="menu-btn" style="visibility: hidden; pointer-events: none;">
     </div>
 
 </header>

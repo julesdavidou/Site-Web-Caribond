@@ -541,6 +541,24 @@ blockquote.wp-block-quote {
     .hidden-phone {
         display: none !important;
     }
+
+    .header-nav {
+        right: auto !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+    .header-nav #nav_header {
+        justify-content: center !important;
+    }
+
+    .header-nav #nav_header li {
+        text-align: center !important;
+    }
+
+    .header-logo {
+        display: none !important;
+        pointer-events: none !important;
+    }
 }
 @media only screen and (min-width: 768px) {
     .hidden-desktop {
@@ -1905,4 +1923,24 @@ body {
 .degrade-top:before {
     top: 0;
     background: linear-gradient(to bottom, #02256b, rgba(0, 0, 0, 0));
+}
+
+/* scrollbar sexy */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--wp--preset--color--jaune) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--wp--preset--color--jaune);
+  border-radius: 6px;
 }
