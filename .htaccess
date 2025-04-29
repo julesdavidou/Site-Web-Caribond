@@ -1,10 +1,10 @@
 RewriteCond %{ENV:HTTPS} !on
 Options -Indexes
 
-#AuthType Basic
-#AuthName "Zone protégée"
-#AuthUserFile /home/cariboa/.htpasswd
-#Require valid-user
+AuthType Basic
+AuthName "Zone protégée"
+AuthUserFile /home/cariboa/.htpasswd
+Require valid-user
 
 RewriteEngine On
 RewriteBase /

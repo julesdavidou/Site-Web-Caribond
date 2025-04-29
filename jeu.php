@@ -5,6 +5,7 @@
 ?>
 
 <head>
+  <meta name="robots" content="noindex, nofollow"> <!-- en croisant les doigts pour que le dom fasse son taf -->
   <script src="includes/Jeu/jquery-1.4.1.min.js"></script>
   <script src="includes/Jeu/vector_battle_regular.typeface.js"></script>
   <script src="includes/Jeu/ipad.js"></script>
