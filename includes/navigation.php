@@ -1,7 +1,7 @@
 <header id="masthead" class="site-header">
     <div class="site-branding">
         <a href="https://caribond.fr" rel="home">
-            <img src="assets/img/Logo.png" alt="Logo Cari'Bond" class="header-logo">
+            <img src="assets/img/Logo.webp" alt="Logo Cari'Bond" class="header-logo">
         </a>
     </div>
 
