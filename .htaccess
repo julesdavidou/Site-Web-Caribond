@@ -1,2 +1,17 @@
+RewriteCond %{ENV:HTTPS} !on
+Options -Indexes
+
+#AuthType Basic
+#AuthName "Zone protégée"
+#AuthUserFile /home/cariboa/.htpasswd
+#Require valid-user
+
 RewriteEngine On
-RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [L,QSA]
+RewriteBase /
+
+# redirect
+RewriteRule ^missions/?$ missions.php [L]
+RewriteRule ^programme/?$ programme.php [L]
+RewriteRule ^unites/?$ unites.php [L]
+RewriteRule ^jeu/?$ jeu.php [L]
+RewriteRule ^$ index.php [L]
