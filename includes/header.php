@@ -37,5 +37,6 @@
 </head>
 
 <body class="page">
+    <div id="site-loader"><img src="assets/img/Logo.webp" alt="Chargement" id="loader-image"></div>
     <div id="page" class="site">
         <?php include __DIR__ . '/navigation.php'; ?>

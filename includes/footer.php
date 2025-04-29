@@ -33,6 +33,17 @@
     
 <script src="/assets/js/main.min.js" id="mainJS-js"></script>
 <script src='/assets/js/chat.js'></script>
+<script>
+    window.addEventListener("load", function () {
+        const loader = document.getElementById("site-loader");
+        loader.style.opacity = "0";
+        loader.style.transition = "opacity 0.5s ease";
+
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 500);
+    });
+</script>
 
 </body>
 
