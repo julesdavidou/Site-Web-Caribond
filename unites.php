@@ -195,8 +195,14 @@
                                 <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
                                     <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Assos & Clubs</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:15px">
+                                    Étant notamment président d’un club, la vie associative est une fierté pour nous. 
+                                    Source de rencontres et d’épanouissement, il est important pour nous de soutenir les A&C afin qu’elles puissent correspondre à un maximum de personnes pour accroître notre communauté au sein de l’INSA Hauts-de-France. 
+                                    Notre école possède l’écrasante majorité des A&C du campus, et on compte pas s’arrêter là !<br><br>
+                                    <strong>Nos engagements : </strong><br>
+                                    Aider les A&C dans leur création et leurs tâches administratives.<br>
+                                    Faire des événements A&C funs pour renforcer notre cohésion.<br>
+                                    Créer des opportunités pour inviter les étudiants à découvrir et rejoindre des A&C.
                                     </p>
 
                                     <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
