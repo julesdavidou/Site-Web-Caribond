@@ -70,42 +70,39 @@
             <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PARTENAIRES</h3>
             
             <div class="partners-carousel">
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://www.lyf.eu/fr/" class="partner-logo">
                     <img src="assets/img/partenaires/Lyf.png" alt="Lyf">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="xxx" class="partner-logo">
                     <img src="assets/img/partenaires/Monabanq.png" alt="Monabanq">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://www.intersport.fr/" class="partner-logo">
                     <img src="assets/img/partenaires/Intersport.png" alt="Intersport">
                 </a>
-                <!-- <a href="https://example.com" class="partner-logo">
+                <!-- <a href="xxx" class="partner-logo">
                     <img src="assets/img/partenaires/JeffDeBruges.png" alt="Jeff De Bruges">
                 </a> -->
-                <a href="https://example.com" class="partner-logo">
+                <a href="xxx" class="partner-logo">
                     <img src="assets/img/partenaires/iGraal.png" alt="iGraal">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://africallfood.com/" class="partner-logo">
                     <img src="assets/img/partenaires/AfriCallFood.png" alt="Afri Call Food">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://www.facebook.com/p/FripChic-100087309256616" class="partner-logo">
                     <img src="assets/img/partenaires/FripChic.png" alt="FripChic">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="xxx" class="partner-logo">
                     <img src="assets/img/partenaires/NordVPN.png" alt="NordVPN">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://www.lesvinsgourmands.fr/" class="partner-logo">
                     <img src="assets/img/partenaires/LesVinsGourmands.png" alt="Les Vins Gourmands">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://www.natureetdecouvertes.com/" class="partner-logo">
                     <img src="assets/img/partenaires/Nature&Decouvertes.png" alt="Nature & Découvertes">
                 </a>
-                <a href="https://example.com" class="partner-logo">
+                <a href="https://samcash.fr/" class="partner-logo">
                     <img src="assets/img/partenaires/SamCash.png" alt="SamCash">
                 </a>
-                <!-- <a href="https://example.com" class="partner-logo">
-                    <img src="assets/img/partenaires/Saveurs&Decouvertes.png" alt="Saveurs & Découvertes">
-                </a> -->
             </div>
             <!-- FIN PARTENAIRES -->
         </div>
