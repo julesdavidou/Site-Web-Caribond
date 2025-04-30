@@ -8,7 +8,7 @@
 <div id="chat-icon" class="chat-icon">💬</div>
 <div class="chat-window" id="chat-window">
     <div class="chat-header">
-        <h3>Chat avec Cari’Bot</h3>
+        <h3>Chat avec Cari’Boot</h3>
         <span id="close-chat" class="close-chat">&times;</span>
     </div>
     <div id="chat-body" class="chat-body">

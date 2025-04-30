@@ -206,7 +206,7 @@
                                     </p>
 
                                     <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">allez hop</a></div>
+                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">@iiwa_artist sur twitch :)</a></div>
                                     </div>
                                 </div>
                             </div>

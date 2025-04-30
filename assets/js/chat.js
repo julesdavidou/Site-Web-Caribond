@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Ajouter la réponse à l'API
                 const responseDiv = document.createElement('div');
                 responseDiv.classList.add('response');
-                responseDiv.innerHTML = `<div class="labelReponse">Caribot</div><p>${data.response}</p>`;
+                responseDiv.innerHTML = `<div class="labelReponse">Cari’Boot</div><p>${data.response}</p>`;
                 conversationDiv.appendChild(responseDiv);
 
                 this.reset(); // Réinitialise le formulaire
