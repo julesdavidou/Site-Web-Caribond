@@ -15,7 +15,6 @@
     </div>
     <div id="chat-body" class="chat-body">
         <div id="chat-conversation">
-            <!-- Messages s'affichent ici -->
             <?php if (isset($response)): ?>
             <div class="response">
                 <h3>Réponse :</h3>

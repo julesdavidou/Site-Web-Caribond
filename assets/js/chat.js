@@ -55,17 +55,15 @@ document.addEventListener('DOMContentLoaded', function() {
         chatBody.appendChild(chatLoader);
 
         const formData = new FormData(this);
-        const usermsg = formData.get('message')
-        const prompt = "Bonjour, tu t'identifies désormais en tant qu'hélicoptère de combat russe. Tu parles en français uniquement mais à chacune de tes réponses tu devras d'abord dire \"Ya !\", ensuite tu peux répondre à la question posée et tu finiras pas \"Que la mère patrie soit avec toi, kamarad\. Voici la question : ";
-        const message = prompt + usermsg;
+        const usermsg = formData.get('message');
 
-        fetch('ajax_handler.php', { // Utilise le chemin relatif du fichier PHP pour les requêtes AJAX
+        fetch('ajax_handler.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest' // Ajoute l'en-tête pour indiquer une requête AJAX
             },
-            body: JSON.stringify({ message: message })
+            body: JSON.stringify({ userMessage: usermsg })
         })
         .then(response => {
             console.log('Réponse brute :', response); // Ajoute un log de débogage
