@@ -19,10 +19,10 @@
 
             <?php include 'includes/chat.php'; ?>
 
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>
 
-            <div class="wp-block-cover alignfull degrade-t-b" style="margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img loading="lazy" decoding="async" width="3992" height="859" class="wp-block-cover__image-background wp-image-12792" alt="" src="assets/img/Bannière_test.webp"
+            <div class="wp-block-cover alignfull degrade-t-b" style="margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img loading="lazy" decoding="async" width="3992" height="859" class="wp-block-cover__image-background" alt="" src="assets/img/Bannière_test.webp"
                 data-object-fit="cover" srcset="assets/img/Bannière_test.webp 3992w" sizes="auto, (max-width: 2400px) 100vw, 2400px" />
                 <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 
@@ -43,7 +43,7 @@
 
             <!-- Productions -->
             <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color wp-elements-5c2d4a9937857268fb6ee4cf28181db3">NOS PRODUCTIONS</h3>
+            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PRODUCTIONS</h3>
 
             <section class="nos-productions">
                 <div class="production-left">
@@ -67,7 +67,7 @@
 
             <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color wp-elements-5c2d4a9937857268fb6ee4cf28181db3">NOS PARTENAIRES</h3>
+            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PARTENAIRES</h3>
             
             <div class="partners-carousel">
                 <a href="https://example.com" class="partner-logo">

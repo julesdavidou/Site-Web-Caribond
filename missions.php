@@ -16,19 +16,19 @@
 
             <?php include 'includes/chat.php'; ?>
 
-            <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family wp-elements-c1f4c55c64a0b298288e660591e0d694"><strong>MISSIONS</strong></h2>
+            <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>MISSIONS</strong></h2>
 
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>
                 Cher Agent,</strong></p>
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
                 Cette semaine ne sera pas de tout repos : une pléthore de missions t'attend ! (ou de défis, entends-le comme bon te semble...)</p>
             
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color wp-elements-5c2d4a9937857268fb6ee4cf28181db3">MISSIONS A&C</h3>
+            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">MISSIONS A&C</h3>
 
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
                 En tant que membre d'association ou de club, tu es invité à effectuer ta mission, mais également les autres ! Le podium sera récompensé 😎</p>
 
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size wp-elements-5767cd5194f21590a9f8c235e0a308be" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
                 Les missions sont également réalisables seul ou en équipe, à condition de s'être inscrit sur le Forms. Lors de la remise des prix, le tirage sera pondéré selon le nombre de missions accomplies. (en gros faut farmer les missions)</p>
 
             <div class="wp-block-buttons is-content-justification-center is-layout-flex">
