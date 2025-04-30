@@ -73,7 +73,7 @@
                 <a href="https://www.lyf.eu/fr/" class="partner-logo">
                     <img src="assets/img/partenaires/Lyf.png" alt="Lyf">
                 </a>
-                <a href="xxx" class="partner-logo">
+                <a href="https://clk.tradedoubler.com/click?p=200547&a=3417704&g=25706016" class="partner-logo">
                     <img src="assets/img/partenaires/Monabanq.png" alt="Monabanq">
                 </a>
                 <a href="https://www.intersport.fr/" class="partner-logo">
@@ -82,7 +82,7 @@
                 <!-- <a href="xxx" class="partner-logo">
                     <img src="assets/img/partenaires/JeffDeBruges.png" alt="Jeff De Bruges">
                 </a> -->
-                <a href="xxx" class="partner-logo">
+                <a href="https://fr.igraal.com/parrainage?parrain=AG_67e5948139004" class="partner-logo">
                     <img src="assets/img/partenaires/iGraal.png" alt="iGraal">
                 </a>
                 <a href="https://africallfood.com/" class="partner-logo">
@@ -91,7 +91,7 @@
                 <a href="https://www.facebook.com/p/FripChic-100087309256616" class="partner-logo">
                     <img src="assets/img/partenaires/FripChic.png" alt="FripChic">
                 </a>
-                <a href="xxx" class="partner-logo">
+                <a href="https://nordvpn.com/fr/" class="partner-logo">
                     <img src="assets/img/partenaires/NordVPN.png" alt="NordVPN">
                 </a>
                 <a href="https://www.lesvinsgourmands.fr/" class="partner-logo">
@@ -107,6 +107,8 @@
             <!-- FIN PARTENAIRES -->
         </div>
         <!-- .entry-content -->
+
+        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article>
     <!-- #main_article -->

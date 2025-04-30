@@ -16,6 +16,8 @@
 
             <?php include 'includes/chat.php'; ?>
 
+            <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+
             <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>MISSIONS</strong></h2>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>
@@ -38,6 +40,9 @@
             </div>
 
         </div>  <!-- .entry-content -->
+
+        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+
     </article>
 </main>
 

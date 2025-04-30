@@ -28,7 +28,8 @@
     right: 140px; /* 20px + 2×(50px+10px) */
 }
 #android-btn img,
-#apple-btn img {
+#apple-btn img,
+#chat-icon img {
     width: 24px;
     height: auto;
 }

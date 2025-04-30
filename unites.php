@@ -16,6 +16,8 @@
 
             <?php include 'includes/chat.php'; ?>
 
+            <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+
             <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>UNITÉS & ENGAGEMENTS</strong></h2>
 
             <div class="wp-block-group alignfull scroll-horizontal is-nowrap is-layout-flex wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
@@ -565,6 +567,9 @@
                 });
             </script>
         </div> <!-- .entry-content -->
+
+        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+
     </article> <!-- #main_article -->
 </main>
 

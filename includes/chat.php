@@ -1,11 +1,13 @@
 <a id="android-btn" class="chat-icon" href="https://example.com" target="_blank" rel="noopener">
-    <img src="assets/icons/ico-android.svg" alt="Android" />
+    <img src="assets/icons/ico-android.svg" alt="Car'ibond - Android" />
 </a>
-<a id="apple-btn" class="chat-icon" href="https://example.com" target="_blank" rel="noopener">
-    <img src="assets/icons/ico-apple.svg" alt="Apple" />
+<a id="apple-btn" class="chat-icon" href="https://testflight.apple.com/join/E7qfEyFB" target="_blank" rel="noopener">
+    <img src="assets/icons/ico-apple.svg" alt="Car'ibond - Apple" />
 </a>
 
-<div id="chat-icon" class="chat-icon">💬</div>
+<a id="chat-icon" class="chat-icon">
+    <img src="assets/icons/msg.svg" alt="Chat avec Cari'Boot" />
+</a>
 <div class="chat-window" id="chat-window">
     <div class="chat-header">
         <h3>Chat avec Cari’Boot</h3>
