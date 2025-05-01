@@ -11,7 +11,7 @@
         <header class="entry-header  header-w-thumbnail">
 
             <div class="post-thumbnail">
-                <img width="1565" height="600" src="assets/img/Bannière_CariBond.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="assets/img/Bannière_CariBond.webp 1565w, assets/img/Bannière_CariBond_600.webp 600w, assets/img/Bannière_CariBond_1200.webp 1200w, assets/img/Bannière_CariBond_782.webp 782w"
+                <img width="1565" height="600" src="assets/img/Bannière_CariBond.webp" class="attachment-post-thumbnail size-post-thumbnail" alt="" decoding="async" srcset="assets/img/Bannière_CariBond.webp 1565w, assets/img/Bannière_CariBond_600.webp 600w, assets/img/Bannière_CariBond_1200.webp 1200w, assets/img/Bannière_CariBond_782.webp 782w"
                 sizes="(max-width: 1565px) 100vw, 1565px" /> </div>
         </header>
 
@@ -19,22 +19,22 @@
 
             <?php include 'includes/chat.php'; ?>
 
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
-            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--preset--spacing--50);margin-bottom:var(--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
+            <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--preset--spacing--50);margin-bottom:var(--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>
 
             <div class="block-cover alignfull degrade-t-b" style="margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-background-dim"></span><img loading="lazy" decoding="async" width="3992" height="859" class="block-cover__image-background" alt="" src="assets/img/Bannière_test.webp"
                 data-object-fit="cover" srcset="assets/img/Bannière_test.webp 3992w" sizes="auto, (max-width: 2400px) 100vw, 2400px" />
                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
 
-                    <div class="block-group has-global-padding is-content-justification-center is-layout-constrained wp-container-core-group-is-layout-a0be0116 block-group-is-layout-constrained">
+                    <div class="block-group has-global-padding is-content-justification-center is-layout-constrained block-group-is-layout-constrained">
                         <div style="height:50px" aria-hidden="true" class="block-spacer"></div>
 
                         <div class="block-buttons is-content-justification-center is-layout-flex" style="position: absolute; bottom: -200px; left: 0; right: 0; justify-content: center; gap: 1rem;">
                             <div class="block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
-                                <a class="block-button__link has-bleu-dark-color has-violet-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/programme" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">PROGRAMME</a>
+                                <a class="block-button__link has-bleu-dark-color has-violet-background-color has-text-color has-background has-link-color element-button" href="https://caribond.fr/programme" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">PROGRAMME</a>
                             </div>
                             <div class="block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
-                                <a class="block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/missions" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">MISSIONS</a>
+                                <a class="block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color element-button" href="https://caribond.fr/missions" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">MISSIONS</a>
                             </div>
                         </div>
                     </div>

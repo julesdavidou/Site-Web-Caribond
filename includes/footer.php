@@ -4,9 +4,9 @@
 
 <div class="footer-partenaire">
     <div class="footer-page-content">
-        <div class="block-group alignfull has-rose-dark-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+        <div class="block-group alignfull has-rose-dark-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--preset--spacing--50);padding-bottom:var(--preset--spacing--50)">
             <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
-                <nav class="has-medium-font-size items-justified-center no-wrap filter-invert block-navigation is-content-justification-center is-nowrap is-layout-flex wp-container-core-navigation-is-layout-12a27398 block-navigation-is-layout-flex"
+                <nav class="has-medium-font-size items-justified-center no-wrap filter-invert block-navigation is-content-justification-center is-nowrap is-layout-flex block-navigation-is-layout-flex"
                 aria-label="Réseaux Sociaux">
                     <ul class="block-navigation__container has-medium-font-size items-justified-center no-wrap filter-invert block-navigation has-medium-font-size">
                         <li class="has-medium-font-size block-navigation-item block-navigation-link"><a class="block-navigation-item__content" href="https://www.instagram.com/caribond_/" title="Absolument toute l'actu de l'agence"><span class="block-navigation-item__label"><i class="ico ico-instagram">instagram</i></span></a></li>
@@ -19,7 +19,7 @@
 
         </div>
 
-        <div class="block-group alignfull has-bleu-dark-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+        <div class="block-group alignfull has-bleu-dark-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--preset--spacing--50);padding-bottom:var(--preset--spacing--50)">
             <div class="has-text-color has-blanc-color items-justified-center" style="text-align: center;">
                 <span class="ff-text-bold">© 2025 Cari'Bond - Tous droits réservés</span>
             </div>

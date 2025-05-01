@@ -75,19 +75,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 const data = JSON.parse(text);
                 const conversationDiv = document.getElementById('chat-conversation');
 
-                 // Après réception de la réponse de l'IA
+                // Après réception de la réponse de l'IA
                 chatLoader.remove();
 
-                // Ajoute la question de l'utilisateur
+                // Ajoute la question de l'utilisateur en mode safe
                 const userMessageDiv = document.createElement('div');
                 userMessageDiv.classList.add('user-message');
-                userMessageDiv.innerHTML = `<div class="labelMessage">Vous</div><p>${usermsg}</p>`;
+                const userLabel = document.createElement('div');
+                userLabel.classList.add('labelMessage');
+                userLabel.textContent = 'Vous';
+                const userText = document.createElement('p');
+                userText.textContent = usermsg;
+                userMessageDiv.append(userLabel, userText);
                 conversationDiv.appendChild(userMessageDiv);
 
-                // Ajouter la réponse à l'API
+                // Ajoute la réponse de l'IA en mode safe
                 const responseDiv = document.createElement('div');
                 responseDiv.classList.add('response');
-                responseDiv.innerHTML = `<div class="labelReponse">Cari’Boot</div><p>${data.response}</p>`;
+                const botLabel = document.createElement('div');
+                botLabel.classList.add('labelReponse');
+                botLabel.textContent = "Cari’Boot";
+                const botText = document.createElement('p');
+                botText.textContent = data.response;
+                responseDiv.append(botLabel, botText);
                 conversationDiv.appendChild(responseDiv);
 
                 this.reset(); // Réinitialise le formulaire

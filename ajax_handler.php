@@ -28,11 +28,24 @@ function is_spamming($ip, $threshold = 6, $interval = 60) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Bloquer les requêtes non-AJAX
+    if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || 
+        strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest') {
+        http_response_code(403);
+        exit();
+    }
+
+    // Lire et valider le JSON
+    $raw = file_get_contents('php://input');
+    $data = json_decode($raw, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        http_response_code(400);
+        echo json_encode(['error' => 'JSON invalide']);
+        exit();
+    }
+
     // Obtenir l'adresse IP du client
     $client_ip = $_SERVER['REMOTE_ADDR'];
-    
-    // Lire les données JSON envoyées
-    $data = json_decode(file_get_contents('php://input'), true);
 
     if (isset($data['userMessage'])) {
         $userMessage = $data['userMessage'];
