@@ -16,44 +16,44 @@
 
             <?php include 'includes/chat.php'; ?>
 
-            <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+            <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
-            <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>UNITÉS & ENGAGEMENTS</strong></h2>
+            <h2 class="entry-title block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>UNITÉS & ENGAGEMENTS</strong></h2>
 
-            <div class="wp-block-group alignfull scroll-horizontal is-nowrap is-layout-flex wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+            <div class="block-group alignfull scroll-horizontal is-nowrap is-layout-flex block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
                 <!-- bureau -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-2" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12849"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-2" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12849"
                                 alt="" src="assets/img/unites/Bureau.webp" data-object-fit="cover" srcset="assets/img/unites/Bureau.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le Bureau</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le Bureau</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br>
                                             <br><strong>Ryan (Vice-trésorier), Carl (VPI), Agate (Secrétaire), Laia (Trésorière), Jean (VPE), Lia (Présidente)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--1"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--1"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-4" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le Bureau</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-4" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le Bureau</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color"><strong>Engagements : <br></strong>pilonner le mexique bla bla bla bla bla bla bla bla blabla bla bla</p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--3"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Revoir Jean 🩷</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--3"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Revoir Jean 🩷</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -62,23 +62,23 @@
                 </div>
 
                 <!-- bda -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/BDA.webp" data-object-fit="cover" srcset="assets/img/unites/BDA.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le BDA</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le BDA</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br> <!-- oui bon -->
                                             <br><strong>Sanick, Finnlake (Vice-Président), Camille, Tizio (Président), Carlina</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -87,10 +87,10 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le BDA</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le BDA</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:14px">
                                         Le BDA aura à cœur de promouvoir l’art au sein de L’insa. Bien que la musique soit une part importante du BDA, nous aimerions promouvoir d’autres formes d’art tel que la photographie, le théâtre, la danse, la peinture etc.
@@ -106,8 +106,8 @@
                                         relancer le projet interziket et pourquoi pas l’héberger à HDF
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">dites-moi carlina</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">dites-moi carlina</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -116,23 +116,23 @@
                 </div>
 
                 <!-- partenariats -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Partenariats.webp" data-object-fit="cover" srcset="assets/img/unites/Partenariats.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Partenariats</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Partenariats</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Cyril (Président), Hugo, Sam (VP), Niels</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -141,10 +141,10 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Partenariats</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Partenariats</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         1. Je ne détournerai point.<br>
@@ -157,8 +157,8 @@
                                         8. Et promis, dans ces campagnes, je m'impliquerai.
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">je préfère augustin</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">je préfère augustin</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -167,23 +167,23 @@
                 </div>
 
                 <!-- a&c -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/A&C.webp" data-object-fit="cover" srcset="assets/img/unites/A&C.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Assos & Clubs</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Assos & Clubs</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Étienne (Président), Nicolas (VP)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -192,10 +192,10 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Assos & Clubs</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Assos & Clubs</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:15px">
                                     Étant notamment président d’un club, la vie associative est une fierté pour nous. 
@@ -207,8 +207,8 @@
                                     Créer des opportunités pour inviter les étudiants à découvrir et rejoindre des A&C.
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">@iiwa_artist sur twitch :)</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">@iiwa_artist sur twitch :)</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -217,23 +217,23 @@
                 </div>
 
                 <!-- el famoso bds -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/BDS.webp" data-object-fit="cover" srcset="assets/img/unites/BDS.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le BDS</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Le BDS</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br>
                                             <br><strong>Marco, Alexandre, Nolan, Blandine (Présidente), Benjamin, Paula, Robin (VP), Quentin (VP), Nicolas, Vincent, Victor</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -242,17 +242,17 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le BDS</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Le BDS</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">sexy, non ?</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">sexy, non ?</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -261,23 +261,23 @@
                 </div>
 
                 <!-- opé -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Opé.webp" data-object-fit="cover" srcset="assets/img/unites/Opé.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Opé</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Opé</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Marion (Présidente), Noémie (VP)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -286,10 +286,10 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Opé</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Opé</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         La team Opé s'engage à faire vivre des moments de partage et de convivialité autour de repas accessibles à tous.
@@ -298,8 +298,8 @@
                                         Si nous sommes élus, nous continuerons à mettre l'énergie et la bonne humeur au service de tous !
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">allez hop</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">allez hop</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -308,23 +308,23 @@
                 </div>
 
                 <!-- inclusion -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Inclusion.webp" data-object-fit="cover" srcset="assets/img/unites/Inclusion.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Inclusion</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Inclusion</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Klervi (Présidente), Valence (VP)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -333,17 +333,17 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Inclusion</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Inclusion</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">allez hop</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">allez hop</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -352,23 +352,23 @@
                 </div>
 
                 <!-- soirée -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Soirée.webp" data-object-fit="cover" srcset="assets/img/unites/Soirée.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Soirée/Évènementiel</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Soirée/Évènementiel</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br>
                                             <br><strong>Mathys, Thomas, Mathias (Président), Romain, Saad, Julie, Jules (VP), Paco</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -377,17 +377,17 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Soirée/Évènementiel</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Soirée/Évènementiel</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">sexy, non ?</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">sexy, non ?</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -396,23 +396,23 @@
                 </div>
 
                 <!-- comm -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/Comm.webp" data-object-fit="cover" srcset="assets/img/unites/Comm.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Com</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">Com</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Maxime, Justine, Audrey (Présidente), Zoé (VP)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -421,17 +421,17 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Com</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Com</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">blague</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">blague</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -440,23 +440,23 @@
                 </div>
 
                 <!-- bdi (le meilleur pour la fin) -->
-                <div class="wp-block-group carte-container has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-group carte has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                        <div class="wp-block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color wp-duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="wp-block-cover__image-background wp-image-12860"
+                <div class="block-group carte-container has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                    <div class="block-group carte has-global-padding is-layout-constrained block-group-is-layout-constrained">
+                        <div class="block-group carte-face front has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover has-custom-content-position is-position-bottom-center degrade-bottom has-border-color has-jaune-border-color duotone-unset-6" style="border-width:6px;border-radius:1em;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim"></span><img loading="lazy" decoding="async" width="800" height="800" class="block-cover__image-background wp-image-12860"
                                 alt="" src="assets/img/unites/BDI.webp" data-object-fit="cover" srcset="assets/img/unites/BDI.webp 800w"
                                 sizes="auto, (max-width: 800px) 100vw, 800px" />
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h4 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">BDI</h4>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h4 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color has-busoramabold-font-family has-medium-font-size" style="margin-top:0;margin-bottom:0">BDI</h4>
 
-                                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                    <div class="block-group has-global-padding is-layout-constrained block-group-is-layout-constrained">
                                         <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-small-font-size">
                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br><br><br><br><br><br><br>
                                             <br><strong>Keyne (clic droit), Jules (clic gauche)</strong>
                                         </p>
 
-                                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                            <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
+                                        <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                            <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--5"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">Engagements</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -465,17 +465,17 @@
 
 
 
-                        <div class="wp-block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
-                            <div class="wp-block-cover degrade-t has-border-color has-jaune-border-color wp-duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
-                                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
-                                    <h5 class="wp-block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">BDI</h5>
+                        <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
+                            <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
+                                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
+                                    <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">BDI</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
                                         <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
                                     </p>
 
-                                    <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-                                        <div class="wp-block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="wp-block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">vous me les branlez ceux-là</a></div>
+                                    <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color wp-element-button">vous me les branlez ceux-là</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -568,7 +568,7 @@
             </script>
         </div> <!-- .entry-content -->
 
-        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+        <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article> <!-- #main_article -->
 </main>

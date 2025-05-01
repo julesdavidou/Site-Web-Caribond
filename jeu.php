@@ -33,7 +33,7 @@
 
       <?php include 'includes/chat.php'; ?>
       
-      <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>LE MAXI JEU</strong></h2>
+      <h2 class="entry-title block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>LE MAXI JEU</strong></h2>
 
       <div style="text-align: center;">
         <div id="game-container">

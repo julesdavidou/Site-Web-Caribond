@@ -15,14 +15,14 @@
 
         <?php include 'includes/chat.php'; ?>
         
-        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+        <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
-        <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>LE PROGRAMME</strong></h2>
+        <h2 class="entry-title block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>LE PROGRAMME</strong></h2>
         <div style="text-align: center;">
             <img class="programme-image" src="assets/img/Planning.webp" alt="Planning" width="1500" height="624">
         </div>
 
-        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+        <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article>
 </main>

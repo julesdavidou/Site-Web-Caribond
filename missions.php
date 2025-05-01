@@ -16,16 +16,16 @@
 
             <?php include 'includes/chat.php'; ?>
 
-            <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+            <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
-            <h2 class="entry-title wp-block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>MISSIONS</strong></h2>
+            <h2 class="entry-title block-heading has-text-align-center has-bleu-dark-color has-text-color has-link-color has-busoramabold-font-family"><strong>MISSIONS</strong></h2>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>
                 Cher Agent,</strong></p>
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
                 Cette semaine ne sera pas de tout repos : une pléthore de missions t'attend ! (ou de défis, entends-le comme bon te semble...)</p>
             
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">MISSIONS A&C</h3>
+            <h3 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color">MISSIONS A&C</h3>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
                 Nos meilleurs responsables d'A&C ont pour mission de réaliser leur défi, sans passeport, pour une petite récompense.
@@ -37,9 +37,9 @@
                 <br>À vous de monter le coup parfait !
             </p>
 
-            <div class="wp-block-buttons is-content-justification-center is-layout-flex">
-                <div class="wp-block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
-                    <a class="wp-block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color wp-element-button" href="assets/pdf/Carnet défis A&C.pdf" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">CARNET DE MISSIONS A&C</a>
+            <div class="block-buttons is-content-justification-center is-layout-flex">
+                <div class="block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
+                    <a class="block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color wp-element-button" href="assets/pdf/Carnet défis A&C.pdf" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">CARNET DE MISSIONS A&C</a>
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
 
         </div>  <!-- .entry-content -->
   
-        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+        <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article>
 </main>

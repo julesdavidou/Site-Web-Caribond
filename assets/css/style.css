@@ -452,7 +452,7 @@ ul.df {
     margin-left: auto;
     margin-right: auto;
 }
-.wp-block-image.aligncenter {
+.block-image.aligncenter {
     margin-left: auto;
     margin-right: auto;
 }
@@ -463,13 +463,13 @@ ul.df {
 }
 .container,
 .entry-content,
-.wp-block-cover__inner-container {
+.block-cover__inner-container {
     max-width: var(--wp--style--global--content-size);
     margin: auto;
     position: relative;
     padding: 0 1rem;
 }
-blockquote.wp-block-quote {
+blockquote.block-quote {
     padding-left: 1rem;
     border-left: 4px solid #000;
     margin: 0 0 1.5rem 0;
@@ -581,10 +581,10 @@ video::-webkit-media-controls {
         gap: 1rem;
     }
 }
-.wp-block-pb-accordion-item {
+.block-pb-accordion-item {
     border-bottom: 1px solid;
 }
-.wp-block-pb-accordion-item h5 {
+.block-pb-accordion-item h5 {
     line-height: 1.3em;
 }
 .c-accordion__content {
@@ -1133,16 +1133,16 @@ h5.has-background,
 h6.has-background {
     padding: inherit;
 }
-.wp-block-separator {
+.block-separator {
     border: none;
     border-top: 2px solid;
     margin: 3rem 0;
 }
-ul.wp-block-list {
+ul.block-list {
     padding: 0 0 0 2rem;
     margin-bottom: 1.5rem;
 }
-.wp-block-columns {
+.block-columns {
     width: 100%;
     max-width: var(--wp--style--global--content-size);
     margin-left: auto;
@@ -1168,20 +1168,20 @@ ul.wp-block-list {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.wp-block-embed__wrapper:hover iframe {
+.block-embed__wrapper:hover iframe {
     pointer-events: none;
 }
-.wp-block-embed__wrapper:hover iframe {
+.block-embed__wrapper:hover iframe {
     pointer-events: auto;
 }
-.wp-block-embed__wrapper {
+.block-embed__wrapper {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
-.wp-block-embed__wrapper iframe {
+.block-embed__wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -1189,55 +1189,55 @@ ul.wp-block-list {
     height: 100%;
     border: 0;
 }
-.wp-embed-aspect-4-3 .wp-block-embed__wrapper {
+.wp-embed-aspect-4-3 .block-embed__wrapper {
     padding-bottom: 75%;
 }
-.wp-embed-aspect-21-9 .wp-block-embed__wrapper {
+.wp-embed-aspect-21-9 .block-embed__wrapper {
     padding-bottom: 42.857%;
 }
-.wp-block-gallery .wp-block-image {
+.block-gallery .block-image {
     position: relative;
     padding: 0.5em;
     background: #fff;
     box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.5);
     max-width: 700px;
 }
-.wp-block-gallery .wp-block-image img {
+.block-gallery .block-image img {
     overflow: hidden;
     border-radius: 1em;
 }
-.wp-block-gallery .wp-block-image figcaption {
+.block-gallery .block-image figcaption {
     display: none;
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 1) {
+.block-gallery .block-image:nth-child(2n + 1) {
     transform: rotate(5deg);
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 2) {
+.block-gallery .block-image:nth-child(2n + 2) {
     transform: rotate(-3deg);
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 3) {
+.block-gallery .block-image:nth-child(2n + 3) {
     transform: rotate(10deg);
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 4) {
+.block-gallery .block-image:nth-child(2n + 4) {
     transform: rotate(-5deg);
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 5) {
+.block-gallery .block-image:nth-child(2n + 5) {
     transform: rotate(8deg);
 }
-.wp-block-gallery .wp-block-image:nth-child(2n + 6) {
+.block-gallery .block-image:nth-child(2n + 6) {
     transform: rotate(-7deg);
 }
-.wp-block-gallery .wp-block-image:last-child() {
+.block-gallery .block-image:last-child() {
     max-width: 600px !important;
 }
-.wp-block-gallery.has-nested-images figure.wp-block-image {
+.block-gallery.has-nested-images figure.block-image {
     flex-grow: 0 !important;
 }
-.wp-block-gallery.has-nested-images figure.wp-block-image:has(figcaption):before {
+.block-gallery.has-nested-images figure.block-image:has(figcaption):before {
     display: none;
 }
 
-.wp-block-cover__inner-container {
+.block-cover__inner-container {
     z-index: 5 !important;
 }
 #wpadminbar {

@@ -22,19 +22,19 @@
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><strong>Bienvenue à l'agence mon chef !</strong></p>
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Nous avons une mission des plus importantes pout toi : profiter de la semaine de campagne.</p>
 
-            <div class="wp-block-cover alignfull degrade-t-b" style="margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img loading="lazy" decoding="async" width="3992" height="859" class="wp-block-cover__image-background" alt="" src="assets/img/Bannière_test.webp"
+            <div class="block-cover alignfull degrade-t-b" style="margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-background-dim"></span><img loading="lazy" decoding="async" width="3992" height="859" class="block-cover__image-background" alt="" src="assets/img/Bannière_test.webp"
                 data-object-fit="cover" srcset="assets/img/Bannière_test.webp 3992w" sizes="auto, (max-width: 2400px) 100vw, 2400px" />
-                <div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+                <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
 
-                    <div class="wp-block-group has-global-padding is-content-justification-center is-layout-constrained wp-container-core-group-is-layout-a0be0116 wp-block-group-is-layout-constrained">
-                        <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+                    <div class="block-group has-global-padding is-content-justification-center is-layout-constrained wp-container-core-group-is-layout-a0be0116 block-group-is-layout-constrained">
+                        <div style="height:50px" aria-hidden="true" class="block-spacer"></div>
 
-                        <div class="wp-block-buttons is-content-justification-center is-layout-flex" style="position: absolute; bottom: -200px; left: 0; right: 0; justify-content: center; gap: 1rem;">
-                            <div class="wp-block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
-                                <a class="wp-block-button__link has-bleu-dark-color has-violet-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/programme" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">PROGRAMME</a>
+                        <div class="block-buttons is-content-justification-center is-layout-flex" style="position: absolute; bottom: -200px; left: 0; right: 0; justify-content: center; gap: 1rem;">
+                            <div class="block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
+                                <a class="block-button__link has-bleu-dark-color has-violet-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/programme" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">PROGRAMME</a>
                             </div>
-                            <div class="wp-block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
-                                <a class="wp-block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/missions" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">MISSIONS</a>
+                            <div class="block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
+                                <a class="block-button__link has-blanc-color has-rouge-background-color has-text-color has-background has-link-color wp-element-button" href="https://caribond.fr/missions" style="border-style:solid; border-radius:6px" target="_blank" rel="noreferrer noopener">MISSIONS</a>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@
             </div>
 
             <!-- Productions -->
-            <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PRODUCTIONS</h3>
+            <div style="height:50px" aria-hidden="true" class="block-spacer"></div>
+            <h3 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PRODUCTIONS</h3>
 
             <section class="nos-productions">
                 <div class="production-left">
@@ -65,9 +65,9 @@
             <!-- Partenaires -->
             <!-- TODO POUR CYRIL : modif liens + check partenaires -->
 
-            <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+            <div style="height:50px" aria-hidden="true" class="block-spacer"></div>
 
-            <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PARTENAIRES</h3>
+            <h3 class="block-heading has-text-align-center has-blanc-color has-text-color has-link-color">NOS PARTENAIRES</h3>
             
             <div class="partners-carousel">
                 <a href="https://www.lyf.eu/fr/" class="partner-logo">
@@ -108,7 +108,7 @@
         </div>
         <!-- .entry-content -->
 
-        <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
+        <div style="height:50px" aria-hidden="true" class="block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article>
     <!-- #main_article -->

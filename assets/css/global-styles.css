@@ -84,11 +84,11 @@
     margin-right: calc(var(--wp--style--root--padding-right) * -1);
     margin-left: calc(var(--wp--style--root--padding-left) * -1);
 }
-.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) {
+.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.block-block, .alignfull)) {
     padding-right: 0;
     padding-left: 0;
 }
-.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull {
+.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.block-block, .alignfull)) > .alignfull {
     margin-left: 0;
     margin-right: 0;
 }
@@ -205,7 +205,7 @@ body {
 a:where(:not(.wp-element-button)) {
     text-decoration: underline;
 }
-:root :where(.wp-element-button, .wp-block-button__link) {
+:root :where(.wp-element-button, .block-button__link) {
     background-color: #32373c;
     border-width: 0;
     color: #fff;
@@ -497,7 +497,7 @@ a:where(:not(.wp-element-button)) {
 .has-cooper-hewitt-bold-font-family {
     font-family: var(--wp--preset--font-family--cooper-hewitt-bold) !important;
 }
-:root :where(.wp-block-pullquote) {
+:root :where(.block-pullquote) {
     font-size: 1.5em;
     line-height: 1.6;
 }
