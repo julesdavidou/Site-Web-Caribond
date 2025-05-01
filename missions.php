@@ -28,10 +28,14 @@
             <h3 class="wp-block-heading has-text-align-center has-blanc-color has-text-color has-link-color">MISSIONS A&C</h3>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
-                En tant que membre d'association ou de club, tu es invité à effectuer ta mission, mais également les autres ! Le podium sera récompensé 😎</p>
+                Nos meilleurs responsables d'A&C ont pour mission de réaliser leur défi, sans passeport, pour une petite récompense.
+            </p>
 
             <p class="has-text-align-center has-blanc-color has-text-color has-link-color has-normalup-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
-                Les missions sont également réalisables seul ou en équipe, à condition de s'être inscrit sur le Forms. Lors de la remise des prix, le tirage sera pondéré selon le nombre de missions accomplies. (en gros faut farmer les missions)</p>
+                Quant à vous, agents, nous vous souhaitons bon courage pour tous les réaliser.
+                <br>Formez vos équipes : plus vous êtes nombreux, plus vous avez de chances de mettre la main sur le butin, mais moins vous êtes, moins vous aurez à vous le partager.
+                <br>À vous de monter le coup parfait !
+            </p>
 
             <div class="wp-block-buttons is-content-justification-center is-layout-flex">
                 <div class="wp-block-button has-custom-font-size is-style-fill has-cooper-hewittheavy-font-family has-normalup-font-size">
@@ -39,8 +43,31 @@
                 </div>
             </div>
 
-        </div>  <!-- .entry-content -->
+            <?php
+            $csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQibCxBsDaviPDbL-b8yqpAcfFDmgyf0sNVB4aTMpL9BLcnDbbmomQGPcbqWhN40FwPntpjaAJXb8J/pub?output=csv&gid=870713603';
+            if ($data = @file_get_contents($csvUrl)) {
+                $lines = array_filter(array_map('trim', explode("\n", $data)));
+                echo '<table class="ranking-table">';
+                // le big header
+                $headers = str_getcsv(array_shift($lines));
+                echo '<thead><tr>';
+                foreach ($headers as $h) {
+                    echo '<th>'.htmlspecialchars($h).'</th>';
+                }
+                echo '</tr></thead><tbody>';
+                // classement
+                foreach ($lines as $line) {
+                    $cols = str_getcsv($line);
+                    echo '<tr><td>'.htmlspecialchars($cols[0]).'</td><td>'.htmlspecialchars($cols[1]).'</td></tr>';
+                }
+                echo '</tbody></table>';
+            } else {
+                echo '<p style="color:#FAF9F6; text-align:center;">Classement non disponible.</p>';
+            }
+            ?>
 
+        </div>  <!-- .entry-content -->
+  
         <div style="height:50px" aria-hidden="true" class="wp-block-spacer hidden-desktop"></div> <!-- spacer mobile -->
 
     </article>

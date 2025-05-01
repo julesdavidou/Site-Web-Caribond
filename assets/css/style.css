@@ -1571,3 +1571,53 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* Styles pour le tableau de classement */
+.ranking-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+.ranking-table th,
+.ranking-table td {
+    border: 1px solid #FAF9F6;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: #FAF9F6;
+    text-align: center;
+}
+.ranking-table th {
+    font-weight: bold;
+}
+.ranking-table th:first-child {
+    border-top-left-radius: 0.5rem !important;
+}
+.ranking-table th:last-child {
+    border-top-right-radius: 0.5rem !important;
+}
+.ranking-table tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem !important;
+}
+.ranking-table tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem !important;
+}
+
+.ranking-table th:nth-child(1),
+.ranking-table td:nth-child(1) {
+    width: 70%;
+}
+.ranking-table th:nth-child(2),
+.ranking-table td:nth-child(2) {
+    width: 30%;
+}
+
+.ranking-table th {
+    font-family: var(--ff_title) !important;
+}
+.ranking-table td {
+    font-family: var(--ff_text) !important;
+}
