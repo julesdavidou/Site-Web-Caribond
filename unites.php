@@ -50,7 +50,15 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Le Bureau</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color"><strong>Engagements : <br></strong>pilonner le mexique bla bla bla bla bla bla bla bla blabla bla bla</p>
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:11.5px">
+                                        Les valeurs qui nous animent sont simples : créer une vie étudiante dynamique et inclusive où chaque étudiant, à son arrivée comme au fil des années, se sent pleinement acteur de la communauté INSA Hauts-de-France. Nous nous engageons à faire en sorte que chacun, qu'il soit néo-insaien ou ancien, trouve sa place, son groupe, et puisse s'épanouir au sein de notre école.
+                                        <br><br><strong>Engagements : <br></strong>
+                                        Nous mettrons en place des actions concrètes pour les accueillir et leur permettre de s'intégrer rapidement dans la vie de l'école, en créant des événements qui favorisent les rencontres.
+                                        <br>Organiser des événements qui incarnent les valeurs de notre école, telles que la solidarité, l'esprit d'équipe, et l'innovation, tout en restant ouverts aux idées nouvelles et aux initiatives des étudiants.
+                                        <br>Nous veillerons à ce que chacun se sente respecté, soutenu et inclus, quelle que soit sa situation, ses origines ou ses envies.
+                                        <br>Nous ferons en sorte que chaque étudiant puisse s'exprimer, participer et voir ses idées concrétisées dans des événements qui lui ressemblent.
+                                        <br>Notre mission est de faire du BDE un véritable reflet de la diversité, de la créativité, et de l'enthousiasme des étudiants de l'INSA Hauts-de-France.
+                                    </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
                                         <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--3"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color element-button">Revoir Jean 🩷</a></div>
@@ -91,17 +99,15 @@
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Le BDA</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:14px">
-                                        Le BDA aura à cœur de promouvoir l’art au sein de L’insa. Bien que la musique soit une part importante du BDA, nous aimerions promouvoir d’autres formes d’art tel que la photographie, le théâtre, la danse, la peinture etc.
-                                        Nous avons comme objectif de dynamiser le campus en matière culturel grâce à l’organisation d’événements et l’inauguration de la nouvelle salle de concert et d'accompagner la transition vers l’indépendance du BDA en association.
-                                        Organiser des événements
-                                        amélioration de la salle BDA et support de la nouvelle salle (pas forcément nouveau matériel mais plutôt organisation, affiches)
-                                        plus de discussion entre ¾ de pouces le bda et insinema
-                                        créer un lien entre bda et le conservatoire de valenciennes(opportunités de cours, master classes sur une journée) et aussi La Flac (salle de répétition, ateliers artistiques, etc)
-                                        promouvoir les pièces de théâtres/festivals/expositions (Trubulentes, Les Briques Rouges etc) à Valenciennes et ses alentours
-                                        Davantage promouvoir la danse, les arts manuels, peinture, théâtre, musique
-                                        faire une exposition photos, art en collab avec cariboushots et cari’art
-                                        faire un event bda où l’on inviterait les groupes BDA mais aussi des groupes semi-pro/ indépendants pour que les étudiants échangent avec eux
-                                        relancer le projet interziket et pourquoi pas l’héberger à HDF
+                                    Le BDA a à cœur de promouvoir toutes les formes d’art au sein de L’insa. En plus de la musique déjà bien représentée, nous aimerions mettre en avant d’autres formes d’art tel que l’audiovisuel, la danse et la peinture à travers des initiatives étudiantes et la communication autour des différents événements organisé dans la région (ou plus loin ;) )
+                                    <br><br>
+                                    <strong>Nos engagements : </strong><br>
+
+                                    Créer et renforcer les liens avec les différentes entités culturelles (¾ de pouces, le Conservatoire, La FLAC,...)
+                                    <br>
+                                    Promouvoire toutes les formes d’art à travers des propositions de festivals (ex : Rêve So Nord, les Turbulentes, ...) et d’autres intern à l’insa (ex : vernissage photo en collaboration avec cariboushot)
+                                    <br>
+                                    Continuer l’enrichissement du matériel de la salle BDA et soutenir l’ouverture de la nouvelle salle de musique sur le campus
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
@@ -196,17 +202,17 @@
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Assos & Clubs</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:15px">
-                                    Étant notamment président d’un club, la vie associative est une fierté pour nous. 
+                                    Étant membres actifs d'A&C, la vie associative est une fierté pour nous. 
                                     Source de rencontres et d’épanouissement, il est important pour nous de soutenir les A&C afin qu’elles puissent correspondre à un maximum de personnes pour accroître notre communauté au sein de l’INSA Hauts-de-France. 
                                     Notre école possède l’écrasante majorité des A&C du campus, et on compte pas s’arrêter là !<br><br>
                                     <strong>Nos engagements : </strong><br>
-                                    Aider les A&C dans leur création et leurs tâches administratives.<br>
+                                    Aider les A&C dans leurs créations et leurs tâches administratives.<br>
                                     Faire des événements A&C funs pour renforcer notre cohésion.<br>
                                     Créer des opportunités pour inviter les étudiants à découvrir et rejoindre des A&C.
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
-                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color element-button">@iiwa_artist sur twitch :)</a></div>
+                                        <div class="block-button is-style-outline flip-btn has-cooper-hewittheavy-font-family is-style-outline--7"><a class="block-button__link has-blanc-color has-text-color has-link-color has-border-color has-blanc-border-color element-button">c'est golri ce bouton hein</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +251,7 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Le BDS</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:13.5px">
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:12.5px">
                                         Gagner le bras de fer avec l’UPHF afin d’obtenir un 2e créneau pour le sport avec l’INSA.
                                         <br>Poursuivre et élargir les groupes de conversations WhatsApp de sports entre étudiants initiées par Camp’INSA en y implémentant de nouveaux sports dans le but de faciliter les rencontres sportives sur Valenciennes, partager des séances et trouver la motivation à plusieurs, obtenir des aides pour le covoiturage, etc.
                                         <br>Etoffer le matériel disponible au sein du BDS en sondant les assos sur les besoins en matos. Informer quel matériel est disponible pour faciliter sa réservation.
@@ -341,8 +347,16 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Inclusion</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:15px">
+                                    Pour que notre école reste “l’INSA de l’ambiance”, elle doit rester une école où chacun peut trouver sa place.
+                                    <br>
+                                    Nous voulons avoir créé une semaine entière pour l’intégration des 1A et des 3A néo-entrants.
+                                    Pour les FISA, nous veillerons à adapter les événements, mettre en place un système de parrainage et avoir un référent FISA dans l'équipe pour porter leur voix.
+                                    Nous souhaitons créer des événements pensés pour chacun : avec des formats chill ou festifs, en veillant toujours à soigner l'ambiance. Nous nous engageons à être présents et à l'écoute, avec vous et pour vous.
+                                    <br>
+                                    Notre objectif est que chaque étudiant reparte de l’INSA avec la sensation d’avoir pleinement vécu sa vie étudiante.
+                                    <br>
+                                    Car il n’y a pas d’ambiance sans intégration, et pas d’intégration sans inclusion.
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
@@ -385,8 +399,16 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Soirée/Évènementiel</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:11.75px">
+                                    Chez Cari Bond, nous n’organisons pas des événements : nous créons des souvenirs, des rendez-vous inattendus, et des ambiances dont on reparlera longtemps.
+                                    <br><strong>Des soirées pour tous, et surtout pour toi.</strong>
+                                    <br>On s’engage à proposer des événements variés, pensés pour rassembler toute la promo : que tu sois team démon de minuit nuit, Isla Bonita en terrasse ou Lorenzo pendant ton beer-pong, tu trouveras toujours ta place Mamen. Avec ou sans alcool, chacun fait la fête à sa manière.
+                                    <br><strong>Un cadre safe et bienveillant.</strong>
+                                    <br>Parce qu’une bonne soirée est avant tout une soirée où tout le monde se sent bien, la présence de garde HVSS n’est plus une option mais un minimum. Prévention, écoute, et gestion efficace pour que la fête reste un plaisir.
+                                    <br><strong>Des concepts qu’on n’a encore jamais vus.</strong>
+                                    <br>Vers l’infini et au-delà. On veut des collaborations inter-écoles/INSA, événements mystères et surprises de dernière minute… On compte repousser les limites de nos anciens.
+                                    <br><strong>Le grand retour des classiques qu’on aime.</strong>
+                                    <br>WEI, Soirée des pleurs, Ski, Noël, afterworks… mais remixés à la sauce Cari Bond. On ne réchauffe pas le passé, mais on tient à garder nos Whoppers chauds (ou nos Big Mac, c’est toi qui vois).
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
@@ -429,8 +451,15 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Com</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:13.75px">
+                                        Notre mission est de communiquer de façon claire, détaillée et régulière sur tous les événements du BDE, pour que chaque étudiant soit informé, impliqué et ne manque rien.
+                                        <br>Nous voulons rendre chaque événement accessible à tous, créer du lien et faire vivre pleinement l'expérience associative.
+                                        <br><br><strong>Nous nous engageons à :</strong><br>
+                                        <br>Garantir efficacité, lisibilité et transparence dans toutes nos actions.
+                                        <br>Valoriser chaque initiative du BDE.
+                                        <br>Mobiliser les étudiants et faire rayonner la vie étudiante.
+                                        <br>Assurer une promotion dynamique et une présence active sur les réseaux sociaux pour informer, répondre et créer du lien.
+                                        <br>Proposer du contenu créatif et innovant pour enrichir le quotidien étudiant.
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">

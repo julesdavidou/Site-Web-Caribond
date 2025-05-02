@@ -2,15 +2,15 @@ RewriteEngine On
 RewriteBase /
 
 # force https
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 Options -Indexes
 
-AuthType Basic
-AuthName "Zone protégée"
-AuthUserFile /home/cariboa/.htpasswd
-Require valid-user
+# AuthType Basic
+# AuthName "Zone protégée"
+# AuthUserFile /home/cariboa/.htpasswd
+# Require valid-user
 
 # redirect
 RewriteRule ^missions/?$ missions.php [L]
