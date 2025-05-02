@@ -85,8 +85,6 @@
                             </div>
                         </div>
 
-
-
                         <div class="block-group carte-face back has-jaune-background-color has-background has-global-padding is-layout-constrained block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0">
                             <div class="block-cover degrade-t has-border-color has-jaune-border-color duotone-unset-8" style="border-width:6px;border-radius:1em;margin-top:0;margin-bottom:0;min-height:500px;aspect-ratio:unset;"><span aria-hidden="true" class="block-cover__background has-bleu-dark-background-color has-background-dim-100 has-background-dim"></span>
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
@@ -247,8 +245,13 @@
                                 <div class="block-cover__inner-container has-global-padding is-layout-constrained block-cover-is-layout-constrained">
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">Le BDS</h5>
 
-                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                    <p class="has-text-align-center has-blanc-color has-text-color has-link-color" style="font-size:13.5px">
+                                        Gagner le bras de fer avec l’UPHF afin d’obtenir un 2e créneau pour le sport avec l’INSA.
+                                        <br>Poursuivre et élargir les groupes de conversations WhatsApp de sports entre étudiants initiées par Camp’INSA en y implémentant de nouveaux sports dans le but de faciliter les rencontres sportives sur Valenciennes, partager des séances et trouver la motivation à plusieurs, obtenir des aides pour le covoiturage, etc.
+                                        <br>Etoffer le matériel disponible au sein du BDS en sondant les assos sur les besoins en matos. Informer quel matériel est disponible pour faciliter sa réservation.
+                                        <br>Proposer davantage de tournois sportifs (regroupement entre promos / spécialités, rencontres inter-INSA, etc)
+                                        <br>Navettes sportives: proposer des moyens de transport ou mettre en place du covoiturage pour se rendre sur les activités UPHF ou Insa quand ce n’est pas desservi par le tram (ex: Marly-Université, pour le rugby, la gym et le trampoline; Cambrai-Université, pour le badminton et le futsal)...
+                                        <br>Kiffer tous ensemble dans une bonne ambiance, l’ambiance de l’INSA Hauts-de-France !
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
@@ -471,7 +474,11 @@
                                     <h5 class="block-heading has-text-align-center has-jaune-oeuf-color has-text-color has-link-color has-busoramabold-font-family has-normalup-font-size" style="margin-top:var(--preset--spacing--30);margin-bottom:var(--preset--spacing--30)">BDI</h5>
 
                                     <p class="has-text-align-center has-blanc-color has-text-color has-link-color">
-                                        <strong>Engagements :</strong><br>quoi de neuf scooby doo nous on te suit partout on va résoudre ce mystère
+                                        Promis cette année le BDI tiendra ses engagements, parole d’homme :
+                                        <br>Mettre en place un compte Insta de mèmes sur l’INSA HdF histoire de faire de l’ombre à Rennes 🤠
+                                        <br>Mettre un coup de pinceau (ou de bulldozer, ça reste à voir) sur le site du BDE, afin de mettre en exergue l’essentiel pour les néo-entrants.
+                                        <br>Travailler étroitement avec l’insa.sh et les associations pour proposer un accompagnement numérique et un hébergement à l’instar du SIA de l’INSA Lyon.
+                                        <br>Concevoir un jeu du “Killer” sur le modèle de l’INSA CUL.
                                     </p>
 
                                     <div class="block-buttons is-content-justification-center is-layout-flex block-buttons-is-layout-flex">
