@@ -1443,6 +1443,7 @@ html.is-animating .transition-fade {
     margin: 0 auto;
     border-radius: 10px;
     animation: pulse-glow 2s infinite alternate;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 }
 
 @media (min-width: 768px) {
@@ -1453,10 +1454,10 @@ html.is-animating .transition-fade {
 
 @keyframes pulse-glow {
     0% {
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
     }
     100% {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
     }
 }
 
