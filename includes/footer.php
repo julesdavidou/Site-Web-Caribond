@@ -24,6 +24,9 @@
                 <span class="ff-text-bold">© 2025 Cari'Bond - Tous droits réservés</span>
             </div>
         </div>
+        <div class="has-text-align-center">
+            <a href="/cgu/" class="has-blanc-color">Conditions Générales d’Utilisation (CGU)</a>
+        </div>
     </div>
 </div>
 
