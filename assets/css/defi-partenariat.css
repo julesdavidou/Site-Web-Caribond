@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: none;
+}
+
+.message {
+    max-width: 60%;
+    /* La bulle s'adapte à la taille du texte */
+    min-width: 50px;
+    /* Évite que la bulle soit trop petite */
+    padding: 0px 10px;
+    /* Réduit l'espace intérieur */
+    margin: 2px 5px;
+    /* Diminue l'espace entre les messages */
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+    border-radius: 15px;
+    word-wrap: break-word;
+    display: inline-block;
+    /* Adapte la taille au texte */
+}
+
+.message:first-child {
+    margin-top: 20px;
+    /* Ajoute un espace avant le premier message */
+}
+
+.sent {
+    background-color: #0084ff;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+.received {
+    background-color: #e5e5ea;
+    color: black;
+    align-self: flex-start;
+}
+
+.message p {
+    margin: 1px;
+    /* Supprime les marges du texte */
+    padding: 1px;
+    /* Supprime l’espace interne inutile */
+}
+
+.message img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    color: gray;
+    display: block;
+    /* Évite un espacement trop grand */
+}

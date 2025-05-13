@@ -1,2 +1,28 @@
 RewriteEngine On
-RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [L,QSA]
+RewriteBase /
+
+# force https
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Options -Indexes
+
+# AuthType Basic
+# AuthName "Zone protégée"
+# AuthUserFile /home/cariboa/.htpasswd
+# Require valid-user
+
+<Files "chat_logs.txt">
+    Require all denied
+</Files>
+
+# redirect
+RewriteRule ^missions/?$ missions.php [L]
+RewriteRule ^programme/?$ programme.php [L]
+RewriteRule ^unites/?$ unites.php [L]
+RewriteRule ^maxijeu/?$ jeu.php [L]
+RewriteRule ^defi-partenariat/?$ defi-partenariat.html [L]
+RewriteRule ^cgu/?$ cgu.php [L]
+RewriteRule ^$ index.php [L]
+
+SetEnv MISTRAL_API_KEY "xxx"
