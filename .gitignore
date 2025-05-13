@@ -1,2 +1,3 @@
-.htaccess
+# .htaccess
 .htpasswd
+chat_logs.txt
