@@ -12,6 +12,10 @@ Options -Indexes
 # AuthUserFile /home/cariboa/.htpasswd
 # Require valid-user
 
+<Files "chat_logs.txt">
+    Require all denied
+</Files>
+
 # redirect
 RewriteRule ^missions/?$ missions.php [L]
 RewriteRule ^programme/?$ programme.php [L]
